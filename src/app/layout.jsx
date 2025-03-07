@@ -1,5 +1,4 @@
 import localFont from 'next/font/local'
-
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 

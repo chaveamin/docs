@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation'
 
 const PASSWORD_KEY_PREFIX = 'doc_password_'
 
-// Load passwords from environment variables
 const PAGE_PASSWORDS = {
   '/docs/lagom': process.env.NEXT_PUBLIC_PASSWORD_LAGOM,
 }
@@ -18,16 +17,24 @@ const PasswordContext = createContext({
 export const PasswordProvider = ({ children }) => {
   const pathname = usePathname()
   const [isAuthenticated, setIsAuthenticated] = useState(false)
-  const storedPasswordKey = PASSWORD_KEY_PREFIX + pathname
+
+  const getProtectedPath = () => {
+    return Object.keys(PAGE_PASSWORDS).find((protectedPath) =>
+      pathname.startsWith(protectedPath),
+    )
+  }
 
   useEffect(() => {
-    if (!PAGE_PASSWORDS[pathname]) {
+    const protectedPath = getProtectedPath()
+    if (!protectedPath) {
       setIsAuthenticated(true)
       return
     }
 
+    const storedPasswordKey = PASSWORD_KEY_PREFIX + protectedPath
     const storedPassword = localStorage.getItem(storedPasswordKey)
-    if (storedPassword === PAGE_PASSWORDS[pathname]) {
+
+    if (storedPassword === PAGE_PASSWORDS[protectedPath]) {
       setIsAuthenticated(true)
     } else {
       setIsAuthenticated(false)
@@ -35,8 +42,9 @@ export const PasswordProvider = ({ children }) => {
   }, [pathname])
 
   const authenticate = (password) => {
-    if (PAGE_PASSWORDS[pathname] && password === PAGE_PASSWORDS[pathname]) {
-      localStorage.setItem(storedPasswordKey, password)
+    const protectedPath = getProtectedPath()
+    if (protectedPath && password === PAGE_PASSWORDS[protectedPath]) {
+      localStorage.setItem(PASSWORD_KEY_PREFIX + protectedPath, password)
       setIsAuthenticated(true)
     }
   }
