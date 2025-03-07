@@ -7,10 +7,7 @@ const PASSWORD_KEY_PREFIX = 'doc_password_'
 
 // Load passwords from environment variables
 const PAGE_PASSWORDS = {
-  '/docs/adminx': process.env.NEXT_PUBLIC_PASSWORD_ADMINX,
   '/docs/lagom': process.env.NEXT_PUBLIC_PASSWORD_LAGOM,
-  '/docs/shufytheme': process.env.NEXT_PUBLIC_PASSWORD_SHUFYTHEME,
-  '/docs/sodium': process.env.NEXT_PUBLIC_PASSWORD_SODIUM,
 }
 
 const PasswordContext = createContext({
@@ -41,8 +38,6 @@ export const PasswordProvider = ({ children }) => {
     if (PAGE_PASSWORDS[pathname] && password === PAGE_PASSWORDS[pathname]) {
       localStorage.setItem(storedPasswordKey, password)
       setIsAuthenticated(true)
-    } else {
-      alert('Incorrect password. Try again.')
     }
   }
 
