@@ -59,6 +59,9 @@
   [inert] ::-webkit-scrollbar {
     display: none;
   }
+  .ltr {
+    direction: ltr;
+  }
   .tos,
   .main-nav,
   html {

@@ -11,6 +11,7 @@ export const navigation = [
       { title: 'آپدیت قالب لاگوم', href: '/docs/lagom/update' },
       { title: 'مشکلات رایج', href: '/docs/lagom/common-problems' },
       { title: 'شخصی سازی', href: '/docs/lagom/customization' },
+      { title: 'لیست تغییرات', href: '/docs/lagom/changelog' },
     ],
     link: '/docs/lagom',
   },

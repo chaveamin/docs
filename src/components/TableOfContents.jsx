@@ -58,9 +58,10 @@ export function TableOfContents({ tableOfContents }) {
 
   let pathname = usePathname()
   let isHomePage = pathname === '/'
+  let isChangelog = pathname === '/changelog'
   return (
     <>
-      {!isHomePage && (
+      {!isHomePage || !isChangelog && (
         <div className="tos relative hidden border-r-1 border-zinc-200 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-4 xl:pl-2">
           <nav aria-labelledby="on-this-page-title" className="w-56">
             {tableOfContents.length > 0 && (
