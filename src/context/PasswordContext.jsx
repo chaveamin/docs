@@ -5,12 +5,12 @@ import { usePathname } from 'next/navigation'
 
 const PASSWORD_KEY_PREFIX = 'doc_password_'
 
-// Define only the pages that should be password protected
+// Load passwords from environment variables
 const PAGE_PASSWORDS = {
-  '/docs/adminx': 'admin123',
-  '/docs/lagom': 'lagom456',
-  '/docs/shufytheme': 'shufy789',
-  '/docs/sodium': 'sodium999',
+  '/docs/adminx': process.env.NEXT_PUBLIC_PASSWORD_ADMINX,
+  '/docs/lagom': process.env.NEXT_PUBLIC_PASSWORD_LAGOM,
+  '/docs/shufytheme': process.env.NEXT_PUBLIC_PASSWORD_SHUFYTHEME,
+  '/docs/sodium': process.env.NEXT_PUBLIC_PASSWORD_SODIUM,
 }
 
 const PasswordContext = createContext({
@@ -24,13 +24,11 @@ export const PasswordProvider = ({ children }) => {
   const storedPasswordKey = PASSWORD_KEY_PREFIX + pathname
 
   useEffect(() => {
-    // Only protect pages that exist in PAGE_PASSWORDS
     if (!PAGE_PASSWORDS[pathname]) {
-      setIsAuthenticated(true) // Automatically grant access if not listed
+      setIsAuthenticated(true)
       return
     }
 
-    // Check if the stored password is correct
     const storedPassword = localStorage.getItem(storedPasswordKey)
     if (storedPassword === PAGE_PASSWORDS[pathname]) {
       setIsAuthenticated(true)
