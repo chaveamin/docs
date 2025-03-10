@@ -99,7 +99,7 @@ nextjs:
 
 ![فعالسازی قالب](/lagom/installation-activate_theme_2.png)
 
-کد لایسنس را در فیلد پایین وارد کنید. برای دریافت کد لایسنس در [تلگرام](https://t.me/sicktoy) در ارتباط باشید
+کد لایسنس را در فیلد پایین وارد کنید. `0SA26499XP995250E`
 
 ![فعالسازی قالب](/lagom/installation-activate_theme_3_2.png)
 

@@ -57,8 +57,8 @@ const PasswordModal = () => {
       <div className="flex w-lg flex-col items-center gap-y-2 rounded-xl bg-white p-6 text-center ring shadow-sm shadow-zinc-800/5 ring-zinc-200 dark:bg-zinc-800 dark:ring-zinc-600">
         <LockIcon />
         <p className="font-ligh mb-2 text-lg text-zinc-800 dark:text-zinc-100">
-          دسترسی این صفحه محدود شده است. رمز عبور در پکیج محصول خریداری شده موجو
-          است.
+          دسترسی به راهنمای این محصول محدود شده است. رمز عبور بعد از خرید در پنل
+          کاربری نمایش داده میشود.
         </p>
         <form onSubmit={handleSubmit}>
           <input
