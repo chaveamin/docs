@@ -28,14 +28,16 @@ export default function Changelog({ version, date, compatibility, children }) {
     day: 'numeric',
   })
   return (
-    <div className="flex w-full flex-col items-start rounded-lg px-4 py-8 ring shadow-sm ring-zinc-200">
-      <div className="flex w-full items-center justify-between">
+    <details className="group flex w-full flex-col items-start rounded-lg px-8 py-4 ring shadow-sm ring-zinc-200">
+      <summary className="relative flex w-full cursor-pointer items-center justify-between">
         <div className="ml-4 flex w-full flex-col">
-          <h4 className="!m-0 text-2xl !font-extrabold">نسخه {version}</h4>
+          <h4 className="!m-0 flex items-center text-2xl !font-extrabold">
+            نسخه {version}
+          </h4>
           <div className="flex w-full justify-between">
             <p className="text-base text-zinc-500">
               تاریخ انتشار:{' '}
-              <span className="font-bold text-zinc-800">{localeDate}</span>
+              <time className="font-bold text-zinc-800">{localeDate}</time>
             </p>
             <p>
               سازگار با{' '}
@@ -50,8 +52,8 @@ export default function Changelog({ version, date, compatibility, children }) {
         >
           خرید و دانلود
         </a>
-      </div>
-      <div>{children}</div>
-    </div>
+      </summary>
+      <div className="overflow-hidden">{children}</div>
+    </details>
   )
 }

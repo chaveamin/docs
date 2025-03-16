@@ -44,7 +44,7 @@ export function Navigation({ className, onLinkClick }) {
                 <ChevronIcon />
               </DisclosureButton>
               <DisclosurePanel
-                transition
+                transition="true"
                 className="origin-top transition duration-200 ease-out data-closed:-translate-y-6 data-closed:opacity-0"
               >
                 <ul

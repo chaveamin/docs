@@ -58,7 +58,7 @@ export function TableOfContents({ tableOfContents }) {
 
   let pathname = usePathname()
   let isHomepage = pathname == '/'
-  let isChangelog = pathname == '/docs/lagom/changelog'
+  let isChangelog = pathname == '/lagom/changelog'
   return (
     <>
       {!isHomepage && !isChangelog ? (

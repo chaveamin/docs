@@ -1,63 +1,63 @@
 export const navigation = [
   {
     title: 'افزونه sodium',
-    links: [{ title: 'فعالسازی sodium', href: '/docs/sodium' }],
-    link: '/docs/sodium',
+    links: [{ title: 'فعالسازی sodium', href: '/sodium' }],
+    link: '/sodium',
   },
   {
     title: 'قالب لاگوم',
     links: [
-      { title: 'نصب قالب لاگوم', href: '/docs/lagom' },
-      { title: 'آپدیت قالب لاگوم', href: '/docs/lagom/update' },
-      { title: 'مشکلات رایج', href: '/docs/lagom/common-problems' },
-      { title: 'شخصی سازی', href: '/docs/lagom/customization' },
-      { title: 'لیست تغییرات', href: '/docs/lagom/changelog' },
+      { title: 'نصب قالب لاگوم', href: '/lagom' },
+      { title: 'آپدیت قالب لاگوم', href: '/lagom/update' },
+      { title: 'مشکلات رایج', href: '/lagom/common-problems' },
+      { title: 'شخصی سازی', href: '/lagom/customization' },
+      { title: 'لیست تغییرات', href: '/lagom/changelog' },
     ],
-    link: '/docs/lagom',
+    link: '/lagom',
   },
   {
     title: 'سایت ساز لاگوم',
-    links: [{ title: 'نصب سایت ساز لاگوم', href: '/docs/website-builder' }],
-    link: '/docs/website-builder',
+    links: [{ title: 'نصب سایت ساز لاگوم', href: '/website-builder' }],
+    link: '/website-builder',
   },
   {
     title: 'قالب ادمین ایکس',
-    links: [{ title: 'نصب قالب ادمین ایکس', href: '/docs/adminx' }],
-    link: '/docs/website-builder',
+    links: [{ title: 'نصب قالب ادمین ایکس', href: '/adminx' }],
+    link: '/website-builder',
   },
   {
     title: 'مدیریت پیشرفته منو',
     links: [
       {
         title: 'راهنمای افزونه مدیریت پیشرفته منو',
-        href: '/docs/whmcs-advanced-menu-manager',
+        href: '/whmcs-advanced-menu-manager',
       },
     ],
-    link: '/docs/whmcs-advanced-menu-manager',
+    link: '/whmcs-advanced-menu-manager',
   },
   {
     title: 'افزونه تایید ایمیل',
     links: [
       {
         title: 'نصب و پیکربندی افزونه تایید ایمیل',
-        href: '/docs/whmcs-email-verification',
+        href: '/whmcs-email-verification',
       },
     ],
-    link: '/docs/whmcs-email-verification',
+    link: '/whmcs-email-verification',
   },
   {
     title: 'افزونه اعلان تلگرام',
     links: [
       {
         title: 'راهنمای افزونه اعلان تلگرام',
-        href: '/docs/whmcs-telegram-notification',
+        href: '/whmcs-telegram-notification',
       },
     ],
-    link: '/docs/whmcs-telegram-notification',
+    link: '/whmcs-telegram-notification',
   },
   {
     title: 'قالب هاستینگ شوفی',
-    links: [{ title: 'راهنمای قالب هاستینگ شوفی', href: '/docs/shufytheme' }],
-    link: '/docs/shufytheme',
+    links: [{ title: 'راهنمای قالب هاستینگ شوفی', href: '/shufytheme' }],
+    link: '/shufytheme',
   },
 ]

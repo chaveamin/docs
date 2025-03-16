@@ -22,7 +22,7 @@ export default function Labels({ type }) {
   return (
     <p
       className={clsx(
-        'mr-4 inline rounded-sm px-[6px] py-[2px] text-sm',
+        'ml-2 inline rounded-sm px-[6px] py-[2px] text-sm',
         styles[type].background,
         styles[type].title,
       )}
