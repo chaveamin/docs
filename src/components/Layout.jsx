@@ -10,6 +10,7 @@ import { Hero } from '@/components/Hero'
 import logo from '@/images/logo.svg'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
+import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 
 function Header() {
@@ -42,6 +43,9 @@ function Header() {
         <Link href="/" aria-label="Home page">
           <Image className="w-6" src={logo} alt="لوگو"></Image>
         </Link>
+      </div>
+      <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
+        <Search />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:grow">
         <ThemeSelector className="relative z-10" />
