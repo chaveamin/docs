@@ -44,7 +44,7 @@ function Header() {
           <Image className="w-6" src={logo} alt="لوگو"></Image>
         </Link>
       </div>
-      <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
+      <div className="-my-5 ml-6 sm:mr-8 md:mr-0">
         <Search />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:grow">
