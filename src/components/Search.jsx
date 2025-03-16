@@ -374,7 +374,7 @@ export function Search() {
 
   useEffect(() => {
     setModifierKey(
-      navigator.userAgent.toUpperCase().indexOf('MAC') ? '⌘' : 'Ctrl ',
+      navigator.userAgent.toUpperCase().indexOf('MAC') ? 'ctrl' : 'Ctrl ',
     )
   }, [])
 

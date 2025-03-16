@@ -99,7 +99,7 @@ nextjs:
 
 ![فعالسازی قالب](/lagom/installation-activate_theme_2.png)
 
-کد لایسنس را در فیلد پایین وارد کنید. `0SA26499XP995250E`
+کد لایسنس را در فیلد پایین وارد کنید. کد لایسنس در [پنل کاربری](https://designesia.ir/account/?tab=payments) موجود میباشد.
 
 ![فعالسازی قالب](/lagom/installation-activate_theme_3_2.png)
 
