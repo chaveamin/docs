@@ -9,9 +9,9 @@ export const navigation = [
     links: [
       { title: 'نصب قالب لاگوم', href: '/lagom' },
       { title: 'آپدیت قالب لاگوم', href: '/lagom/update' },
-      { title: 'مشکلات رایج', href: '/lagom/common-problems' },
-      { title: 'شخصی سازی', href: '/lagom/customization' },
       { title: 'لیست تغییرات', href: '/lagom/changelog' },
+      { title: 'مشکلات رایج', href: '/lagom/common-problems' },
+      { title: 'پیکربندی', href: '/lagom/settings' },
     ],
     link: '/lagom',
   },

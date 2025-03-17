@@ -134,7 +134,7 @@ function SearchResult({ result, autocomplete, collection, query }) {
 
   return (
     <li
-      className="group block cursor-default rounded-lg px-3 py-2 aria-selected:bg-slate-100 dark:aria-selected:bg-slate-700/30"
+      className="group block cursor-pointer rounded-lg px-3 py-2 aria-selected:bg-blue-50 dark:aria-selected:bg-slate-700/30"
       aria-labelledby={`${id}-hierarchy ${id}-title`}
       {...autocomplete.getItemProps({
         item: result,
@@ -144,7 +144,7 @@ function SearchResult({ result, autocomplete, collection, query }) {
       <div
         id={`${id}-title`}
         aria-hidden="true"
-        className="text-sm text-slate-700 group-aria-selected:text-sky-600 dark:text-slate-300 dark:group-aria-selected:text-sky-400"
+        className="text-sm text-slate-700 group-aria-selected:text-blue-600 dark:text-slate-300 dark:group-aria-selected:text-blue-400"
       >
         <HighlightQuery text={result.title} query={query} />
       </div>
@@ -209,8 +209,8 @@ const SearchInput = forwardRef(function SearchInput(
   let inputProps = autocomplete.getInputProps({ inputElement: null })
 
   return (
-    <div className="group relative flex h-12">
-      <SearchIcon className="pointer-events-none absolute top-0 left-4 h-full w-5 fill-slate-400 dark:fill-slate-500" />
+    <div className="group relative flex h-18">
+      <SearchIcon className="pointer-events-none absolute top-0 left-4 h-full w-6 fill-blue-600 dark:fill-slate-500" />
       <input
         ref={inputRef}
         data-autofocus
@@ -382,10 +382,9 @@ export function Search() {
     <>
       <button
         type="button"
-        className="group flex h-6 w-6 items-center justify-center sm:justify-start md:h-auto md:w-80 md:flex-none md:rounded-lg md:py-2.5 md:pr-3.5 md:pl-4 md:text-sm md:ring-1 md:ring-slate-200 md:hover:ring-slate-300 lg:w-96 dark:md:bg-slate-800/75 dark:md:ring-white/5 dark:md:ring-inset dark:md:hover:bg-slate-700/40 dark:md:hover:ring-slate-500"
+        className="group flex h-6 w-6 items-center justify-center transition-all sm:justify-start md:h-auto md:w-80 md:flex-none md:rounded-lg md:py-2.5 md:pr-3.5 md:pl-4 md:text-sm md:ring-1 md:ring-slate-200 md:hover:ring-blue-600 lg:w-2xl dark:md:bg-slate-800/75 dark:md:ring-white/5 dark:md:ring-inset dark:md:hover:bg-slate-700/40 dark:md:hover:ring-slate-500"
         {...buttonProps}
       >
-        <SearchIcon className="h-5 w-5 flex-none fill-slate-400 group-hover:fill-slate-500 md:group-hover:fill-slate-400 dark:fill-slate-500" />
         <span className="sr-only md:not-sr-only md:ml-2 md:text-slate-500 md:dark:text-slate-400">
           جستجو در راهنما
         </span>
@@ -395,6 +394,7 @@ export function Search() {
             <kbd>K</kbd>
           </kbd>
         )}
+        <SearchIcon className="h-5 w-5 flex-none fill-blue-600 md:group-hover:fill-slate-400 dark:fill-slate-500" />
       </button>
       <SearchDialog {...dialogProps} />
     </>

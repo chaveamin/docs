@@ -30,7 +30,7 @@ function Header() {
   return (
     <header
       className={clsx(
-        'sticky top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 sm:px-6 lg:px-8 dark:shadow-none',
+        'sticky top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white px-4 py-5 shadow-2xl shadow-slate-900/5 transition duration-500 sm:px-6 lg:px-8 dark:shadow-none',
         isScrolled
           ? 'dark:bg-slate-900/95 dark:backdrop-blur-sm dark:[@supports(backdrop-filter:blur(0))]:bg-slate-900/75'
           : 'dark:bg-transparent',
@@ -47,7 +47,14 @@ function Header() {
       <div className="-my-5 ml-6 sm:mr-8 md:mr-0">
         <Search />
       </div>
-      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:grow">
+      <div className="relative flex basis-0 items-center justify-between gap-6 sm:gap-8 md:grow">
+        <Link
+          className="rounded-md bg-blue-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-blue-500 dark:bg-slate-800/75"
+          href="https://designesia.ir/downloads/lagom-whmcs-theme/"
+          target="_blank"
+        >
+          خرید
+        </Link>
         <ThemeSelector className="relative z-10" />
       </div>
     </header>
@@ -64,7 +71,7 @@ export function Layout({ children }) {
 
       {isHomePage && <Hero />}
 
-      <div className="relative mx-auto flex w-full max-w-[92rem] flex-auto justify-center sm:px-2">
+      <div className="relative mx-auto flex w-full max-w-[92rem] flex-auto flex-col-reverse justify-center sm:px-2 lg:flex-row">
         {!isHomePage && (
           <div className="hidden lg:relative lg:block lg:flex-none">
             <div className="absolute inset-y-0 left-0 w-[50vw] bg-slate-50 dark:hidden" />
