@@ -36,7 +36,7 @@ const PasswordProtect = () => {
       document.cookie = `authenticated_${page}=true; path=/`
       router.push(page)
     } else {
-      setError('Incorrect password!')
+      setError('رمز عبور اشتباه است')
     }
   }
 
@@ -51,7 +51,7 @@ const PasswordProtect = () => {
             href="https://designesia.ir/account/?tab=payments"
             target="_blank"
           >
-            پنل کاربری
+            جزئیات پرداخت
           </a>{' '}
           نمایش داده میشود.
         </p>
@@ -66,8 +66,11 @@ const PasswordProtect = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="*****************"
-            className="rounded-md border border-zinc-200 p-2 placeholder:text-zinc-300 focus:ring-4 focus:ring-blue-600/7 focus:outline-blue-500 dark:border-zinc-600 dark:placeholder:text-zinc-600"
+            className="my-2 rounded-md border border-zinc-200 p-2 placeholder:text-zinc-300 focus:ring-4 focus:ring-blue-600/7 focus:outline-blue-500 dark:border-zinc-600 dark:placeholder:text-zinc-600"
           />
+          <p className="text-xs text-blue-600">
+            در صورت عدم ورود یکبار صفحه را رفرش کنید
+          </p>
           <button
             type="submit"
             className="mt-3 cursor-pointer rounded-md bg-blue-600 p-2 text-white transition-colors hover:bg-blue-700 dark:bg-zinc-900/50 dark:hover:bg-zinc-900"
