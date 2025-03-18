@@ -1,6 +1,6 @@
 {
-  "name": "tailwindui-syntax",
-  "version": "2.1.0",
+  "name": "product-docs",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,7 +17,6 @@
     "@sindresorhus/slugify": "^2.1.0",
     "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.7",
-    "bcryptjs": "^3.0.2",
     "clsx": "^2.1.0",
     "fast-glob": "^3.2.12",
     "flexsearch": "^0.7.31",

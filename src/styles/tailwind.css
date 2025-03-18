@@ -54,7 +54,6 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
-
 @layer base {
   [inert] ::-webkit-scrollbar {
     display: none;
