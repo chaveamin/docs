@@ -55,6 +55,9 @@
   }
 }
 @layer base {
+  a {
+    font-weight: unset !important;
+  }
   [inert] ::-webkit-scrollbar {
     display: none;
   }
