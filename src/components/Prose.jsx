@@ -27,9 +27,11 @@ export function Prose({ as, className, ...props }) {
         // h3
         'prose-h3:text-3xl prose-h3:font-light prose-h3:translate-x-7',
         // h4
-        'prose-h4:text-2xl prose-h4:font-medium prose-h4:translate-x-7',
+        'prose-h4:text-2xl prose-h4:font-bold prose-h4:translate-x-7',
         // h5
         'prose-h5:text-lg prose-h5:font-medium prose-h5:translate-x-7',
+        // p
+        'prose-p:text-[17px] prose-p:text-gray-600',
       )}
       {...props}
     />
