@@ -64,11 +64,6 @@
   .ltr {
     direction: ltr;
   }
-  .tos,
-  .main-nav,
-  html {
-    scrollbar-width: thin;
-  }
   .prose img {
     @apply rounded-xl ring shadow-sm shadow-zinc-800/5 ring-zinc-200;
   }
