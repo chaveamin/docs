@@ -247,3 +247,20 @@ nextjs:
 ![تنظیمات قالب لاگوم](/lagom/settings/settings-general-account_details_box_display_location-02.png)
 هنگامی که آن را مخفی کنید، از نوار کناری ناپدید می شود.
 ![تنظیمات قالب لاگوم](/lagom/settings/settings-general-account_details_box_display_location-03.png)
+
+### توضیحات شرکت در فوتر {% version v="2.3.4" %}{% /version %}
+
+این ویژگی به شما امکان می دهد تا به راحتی توضیحات شرکت واقع در فوتر را با یک گزینه اضافی برای ترجمه آسان مدیریت کنید. متنی که ارائه می‌کنید تنها زمانی ظاهر می‌شود که [Footer "Extended" Layout](#) انتخاب شود.
+
+اگر این فیلد خالی بماند، متن پیشفرض از فایل زبان `/templates/lagom2/core/lang/farsi.php` استفاده خواهد شد:
+
+```php
+<?php
+'footer_extended' => [
+    "footer_desc"                   => 'Get in touch with us!',
+]
+```
+
+![تنظیمات قالب لاگوم](/lagom/settings/settings-footer_company_description-1.png)
+نحوه نمایش آن در زیر مشاهده میکنید
+![تنظیمات قالب لاگوم](/lagom/settings/settings-footer_company_description-2.png)

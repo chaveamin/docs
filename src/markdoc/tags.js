@@ -3,6 +3,7 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Video } from '@/components/Video'
 import Changelog from '@/components/Changelog'
 import Labels from '@/components/Labels'
+import Version from '@/components/Version'
 
 const tags = {
   callout: {
@@ -57,6 +58,12 @@ const tags = {
         default: 'new',
         matches: ['new', 'fix', 'improvement'],
       },
+    },
+  },
+  version: {
+    render: Version,
+    attributes: {
+      v: { type: String, require: true },
     },
   },
 }
