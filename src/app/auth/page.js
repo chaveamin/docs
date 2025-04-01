@@ -44,7 +44,7 @@ const PasswordProtect = () => {
   }
 
   return (
-    <Suspense>
+    <Suspense fallback={<div>صبر کنید...</div>}>
       <div className="absolute inset-0 z-10 flex items-center justify-center px-4 backdrop-blur-3xl lg:px-0">
         <div className="relative flex w-sm flex-col items-center gap-y-2 rounded-xl bg-white p-6 text-center ring shadow-sm shadow-zinc-800/5 ring-zinc-200 lg:w-lg dark:bg-zinc-800 dark:ring-zinc-600">
           <LockIcon />
