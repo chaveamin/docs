@@ -1,4 +1,5 @@
 'use client'
+import { Suspense } from 'react'
 
 function LockIcon() {
   return (
@@ -43,45 +44,47 @@ const PasswordProtect = () => {
   }
 
   return (
-    <div className="absolute inset-0 z-10 flex items-center justify-center px-4 backdrop-blur-3xl lg:px-0">
-      <div className="relative flex w-sm flex-col items-center gap-y-2 rounded-xl bg-white p-6 text-center ring shadow-sm shadow-zinc-800/5 ring-zinc-200 lg:w-lg dark:bg-zinc-800 dark:ring-zinc-600">
-        <LockIcon />
-        <p className="font-ligh mb-2 text-lg text-zinc-800 dark:text-zinc-100">
-          دسترسی به راهنمای این محصول محدود شده است. رمز عبور بعد از خرید در{' '}
-          <a
-            className="text-blue-600"
-            href="https://designesia.ir/account/?tab=payments"
-            target="_blank"
-          >
-            جزئیات پرداخت
-          </a>{' '}
-          نمایش داده میشود.
-        </p>
-        <form className="flex w-full flex-col" onSubmit={handleSubmit}>
-          {error && (
-            <p className="mt-2 rounded-md bg-rose-400/15 p-1 text-sm text-rose-700 dark:bg-rose-400/10 dark:text-rose-400">
-              {error}
-            </p>
-          )}
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="*****************"
-            className="my-2 rounded-md border border-zinc-200 p-2 placeholder:text-zinc-300 focus:ring-4 focus:ring-blue-600/7 focus:outline-blue-500 dark:border-zinc-600 dark:placeholder:text-zinc-600"
-          />
-          <p className="text-xs text-blue-600">
-            در صورت عدم ورود یکبار صفحه را رفرش کنید
+    <Suspense>
+      <div className="absolute inset-0 z-10 flex items-center justify-center px-4 backdrop-blur-3xl lg:px-0">
+        <div className="relative flex w-sm flex-col items-center gap-y-2 rounded-xl bg-white p-6 text-center ring shadow-sm shadow-zinc-800/5 ring-zinc-200 lg:w-lg dark:bg-zinc-800 dark:ring-zinc-600">
+          <LockIcon />
+          <p className="font-ligh mb-2 text-lg text-zinc-800 dark:text-zinc-100">
+            دسترسی به راهنمای این محصول محدود شده است. رمز عبور بعد از خرید در{' '}
+            <a
+              className="text-blue-600"
+              href="https://designesia.ir/account/?tab=payments"
+              target="_blank"
+            >
+              جزئیات پرداخت
+            </a>{' '}
+            نمایش داده میشود.
           </p>
-          <button
-            type="submit"
-            className="mt-3 cursor-pointer rounded-md bg-blue-600 p-2 text-white transition-colors hover:bg-blue-700 dark:bg-zinc-900/50 dark:hover:bg-zinc-900"
-          >
-            ورود
-          </button>
-        </form>
+          <form className="flex w-full flex-col" onSubmit={handleSubmit}>
+            {error && (
+              <p className="mt-2 rounded-md bg-rose-400/15 p-1 text-sm text-rose-700 dark:bg-rose-400/10 dark:text-rose-400">
+                {error}
+              </p>
+            )}
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="*****************"
+              className="my-2 rounded-md border border-zinc-200 p-2 placeholder:text-zinc-300 focus:ring-4 focus:ring-blue-600/7 focus:outline-blue-500 dark:border-zinc-600 dark:placeholder:text-zinc-600"
+            />
+            <p className="text-xs text-blue-600">
+              در صورت عدم ورود یکبار صفحه را رفرش کنید
+            </p>
+            <button
+              type="submit"
+              className="mt-3 cursor-pointer rounded-md bg-blue-600 p-2 text-white transition-colors hover:bg-blue-700 dark:bg-zinc-900/50 dark:hover:bg-zinc-900"
+            >
+              ورود
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
+    </Suspense>
   )
 }
 
