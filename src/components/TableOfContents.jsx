@@ -80,8 +80,8 @@ export function TableOfContents({ tableOfContents }) {
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'text-sky-500 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
-                              : 'font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-500',
+                              ? 'text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
+                              : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-500',
                           )}
                         >
                           {section.title}
