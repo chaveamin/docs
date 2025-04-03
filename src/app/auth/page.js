@@ -3,7 +3,7 @@ import PasswordProtect from '@/components/PasswordProtect'
 
 export default function AuthPage() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<span>صبر کنید...</span>}>
       <PasswordProtect />
     </Suspense>
   )
