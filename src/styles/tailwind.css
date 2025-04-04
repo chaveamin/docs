@@ -53,14 +53,14 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
-  a {
-    font-weight: unset !important;
-  }
   [inert] ::-webkit-scrollbar {
     display: none;
   }
   .prose img {
     @apply rounded-xl ring shadow-sm shadow-zinc-800/5 ring-zinc-200;
+  }
+  .headings {
+    font-weight: unset !important;
   }
   code,
   pre {

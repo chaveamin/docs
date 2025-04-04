@@ -30,14 +30,19 @@ function ChevronIcon() {
 
 export function Navigation({ className, onLinkClick }) {
   let pathname = usePathname()
+  console.log(pathname)
 
   return (
     <nav className={clsx('text-base lg:text-sm', className)}>
       <ul role="list">
         {navigation.map((section) => (
           <li key={section.title}>
-            <Disclosure as="div" className="p-3">
-              <DisclosureButton className="group flex cursor-pointer items-center">
+            <Disclosure
+              as="div"
+              className="group p-3"
+              defaultOpen={pathname.includes(section.link)}
+            >
+              <DisclosureButton className="flex cursor-pointer items-center">
                 <h2 className="text-base font-bold text-slate-900 dark:text-white">
                   {section.title}
                 </h2>

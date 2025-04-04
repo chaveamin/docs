@@ -23,7 +23,7 @@ export const navigation = [
   {
     title: 'قالب ادمین ایکس',
     links: [{ title: 'نصب قالب ادمین ایکس', href: '/adminx' }],
-    link: '/website-builder',
+    link: '/adminx',
   },
   {
     title: 'مدیریت پیشرفته منو',

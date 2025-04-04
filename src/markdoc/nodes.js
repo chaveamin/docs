@@ -39,7 +39,7 @@ const nodes = {
           {
             href: `#${id}`,
             class:
-              'relative before:content-["#"] before:text-blue-600 before:invisible hover:before:visible before:ml-2 !shadow-none',
+              'headings relative before:content-["#"] before:text-blue-600 before:invisible hover:before:visible before:ml-2 !shadow-none',
           },
           children,
         ),
