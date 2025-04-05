@@ -52,20 +52,17 @@ export function Navigation({ className, onLinkClick }) {
                 transition="true"
                 className="origin-top transition duration-200 ease-out data-closed:-translate-y-6 data-closed:opacity-0"
               >
-                <ul
-                  role="list"
-                  className="mt-2 space-y-2 border-r-2 border-slate-100 lg:mt-4 lg:space-y-4 lg:border-slate-200 dark:border-slate-800"
-                >
+                <ul role="list" className="mt-2 space-y-2 lg:mt-4 lg:space-y-4">
                   {section.links.map((link) => (
                     <li key={link.href} className="relative">
                       <Link
                         href={link.href}
                         onClick={onLinkClick}
                         className={clsx(
-                          'block h-6 overflow-hidden pr-3.5 text-ellipsis whitespace-nowrap transition-all before:pointer-events-none before:absolute before:top-1/2 before:-right-1 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full',
+                          'flex h-6 items-center overflow-hidden text-ellipsis whitespace-nowrap transition-all duration-300 before:pointer-events-none before:absolute before:top-3.5 before:-right-1 before:h-1.5 before:w-1.5 before:rounded-full',
                           link.href === pathname
-                            ? 'font-semibold text-sky-500 before:bg-sky-500'
-                            : 'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300',
+                            ? 'rounded-md bg-sky-100 p-4 font-semibold text-sky-600 before:bg-sky-600'
+                            : 'text-slate-500 before:hidden before:bg-slate-300 hover:-translate-x-2 hover:text-sky-600 dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300',
                         )}
                       >
                         {link.title}

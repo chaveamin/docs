@@ -20,14 +20,14 @@ const styles = {
 
 export default function Labels({ type }) {
   return (
-    <p
+    <span
       className={clsx(
-        'ml-2 inline rounded-sm px-[6px] py-[2px] text-sm',
+        'label mr-2 inline rounded-sm px-[6px] py-[2px] text-sm',
         styles[type].background,
         styles[type].title,
       )}
     >
       {styles[type].name}
-    </p>
+    </span>
   )
 }

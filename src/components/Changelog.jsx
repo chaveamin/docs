@@ -28,7 +28,7 @@ export default function Changelog({ version, date, compatibility, children }) {
     day: 'numeric',
   })
   return (
-    <details className="group flex w-full flex-col items-start rounded-lg px-8 py-4 ring shadow-sm ring-zinc-200">
+    <details className="group my-6 flex w-full flex-col items-start rounded-lg px-8 py-4 ring shadow-sm ring-zinc-200">
       <summary className="relative flex w-full cursor-pointer items-center justify-between">
         <div className="ml-4 flex w-full flex-col">
           <h4 className="!m-0 flex !-translate-x-0 items-center text-2xl !font-extrabold">
