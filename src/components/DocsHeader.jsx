@@ -17,10 +17,10 @@ export function DocsHeader({ title }) {
   return (
     <header className="mb-9 space-y-1">
       {section && (
-        <p className=" text-sm font-medium text-sky-500">{section.title}</p>
+        <p className="text-sm font-medium text-sky-500">{section.title}</p>
       )}
       {title && (
-        <h1 className=" text-3xl tracking-tight text-slate-900 dark:text-white">
+        <h1 className="text-4xl font-light text-slate-900 dark:text-white">
           {title}
         </h1>
       )}

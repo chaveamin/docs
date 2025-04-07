@@ -49,7 +49,7 @@ function Header() {
       </div>
       <div className="relative flex basis-0 items-center justify-between gap-6 sm:gap-8 md:grow">
         <Link
-          className="rounded-md bg-blue-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-blue-500 dark:bg-slate-800/75"
+          className="hidden rounded-md bg-blue-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-blue-500 md:block dark:bg-slate-800/75"
           href="https://designesia.ir/"
           target="_blank"
         >
