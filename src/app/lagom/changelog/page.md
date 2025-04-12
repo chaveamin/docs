@@ -11,27 +11,27 @@ nextjs:
 
 {% label type="remove" %}{% /label %} Support for IonCube Loader 13 has been discontinued. The product now requires IonCube Loader 14 or later.
 
-{% label type="new" %}{% /label %} [Footer Payment Gateways](https://lagom.rsstudio.net/docs/settings/#footer-payment-gateways) - Added a new feature to include icons of supported payment gateways in the footer at a location of our choice.
+{% label type="new" %}{% /label %} [Footer Payment Gateways](/lagom/settings#drgah-hay-prdakht-dr-fwtr) - Added a new feature to include icons of supported payment gateways in the footer at a location of our choice.
 
-{% label type="new" %}{% /label %} [ Footer Company Description](https://lagom.rsstudio.net/docs/settings/#footer-company-description) - New setting to easily manage company description in the footer with an additional option for easy translation.
+{% label type="new" %}{% /label %} [ Footer Company Description](/lagom/settings#twdyhat-shrkt-dr-fwtr) - New setting to easily manage company description in the footer with an additional option for easy translation.
 
-{% label type="new" %}{% /label %} [Hide Ticket Priority](https://lagom.rsstudio.net/docs/page-templates/#hide-ticket-priority-2) - New setting for the View Ticket page allowing you to hide ticket priority display.
+{% label type="new" %}{% /label %} [Hide Ticket Priority](#) - New setting for the View Ticket page allowing you to hide ticket priority display.
 
-{% label type="new" %}{% /label %} [Save Label Placement](https://lagom.rsstudio.net/docs/page-templates/#save-label-placement) - New setting for the "Configure Product" page, that lets you to choose the "Save x%" label placement within the "Choose Billing Cycle" section.
+{% label type="new" %}{% /label %} [Save Label Placement](#) - New setting for the "Configure Product" page, that lets you to choose the "Save x%" label placement within the "Choose Billing Cycle" section.
 
-{% label type="new" %}{% /label %} [Main Menu Hover-Triggered Submenu Expansion](https://lagom.rsstudio.net/docs/settings/#main-menu-hover-triggered-submenu-expansion) - Introduced a feature enabling automatic dropdown expansion on hover in menus, enhancing user navigation.
+{% label type="new" %}{% /label %} [Main Menu Hover-Triggered Submenu Expansion](/lagom/settings#baz-krdn-khwdkar-mnwha-hngam-hawr) - Introduced a feature enabling automatic dropdown expansion on hover in menus, enhancing user navigation.
 
-{% label type="new" %}{% /label %} [Choose Default Mode](https://lagom.rsstudio.net/docs/settings/#choose-default-mode) - New option for the Enable Dark Mode feature that allows you to select the default page mode, Light or Dark .
+{% label type="new" %}{% /label %} [Choose Default Mode](/lagom/settings#antkhab-halt-pyshfrd) - New option for the Enable Dark Mode feature that allows you to select the default page mode, Light or Dark .
 
-{% label type="new" %}{% /label %} [Enable Account Details Box Display Location](https://lagom.rsstudio.net/docs/settings/#enable-account-details-box-display-location) - New setting that lets you choose on which pages the Account Details Box will be displayed within the Account Management and User Management sections fo the Client Area.
+{% label type="new" %}{% /label %} [Enable Account Details Box Display Location](/lagom/settings#fealsazy-mkan-nmaysh-jebh-jzyyat-hsab) - New setting that lets you choose on which pages the Account Details Box will be displayed within the Account Management and User Management sections fo the Client Area.
 
-{% label type="fix" %}{% /label %} Updated banner graphics on the ["Domain Search"](https://demo.rsstudio.net/lagom/cart.php?a=add&domain=register) page to better reflect the domain searching theme.
+{% label type="fix" %}{% /label %} Updated banner graphics on the ["Domain Search"](#) page to better reflect the domain searching theme.
 
 {% label type="fix" %}{% /label %} Other minor appearance fixes.
 
 ###### فرم سفارش
 
-{% label type="new" %}{% /label %} [Show Promo Code Banner Label](https://lagom.rsstudio.net/docs/settings/#show-promo-code-banner-label) - New setting that allows adding a label with promotion code information on the order process pages - Domain Search, Domain Configuration, Product Configuration, and Checkout
+{% label type="new" %}{% /label %} [Show Promo Code Banner Label](/lagom/settings#nmaysh-lybl-kd-tkhfyf) - New setting that allows adding a label with promotion code information on the order process pages - Domain Search, Domain Configuration, Product Configuration, and Checkout
 
 {% label type="improvement" %}{% /label %} Updated the appearance of payment gateway icons in Dark Mode.
 
