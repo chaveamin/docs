@@ -56,7 +56,7 @@ const tags = {
       type: {
         type: String,
         default: 'new',
-        matches: ['new', 'fix', 'improvement'],
+        matches: ['new', 'fix', 'improvement', 'remove'],
       },
     },
   },

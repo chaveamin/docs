@@ -47,8 +47,9 @@ export default function Changelog({ version, date, compatibility, children }) {
           </div>
         </div>
         <a
+          target="_blank"
           className="w-34 rounded-lg bg-blue-600 px-4 py-2 text-white !shadow-none transition-colors hover:bg-blue-500"
-          href="#"
+          href="https://designesia.ir/downloads/lagom-whmcs-theme/"
         >
           خرید و دانلود
         </a>

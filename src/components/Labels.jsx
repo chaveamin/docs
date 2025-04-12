@@ -16,6 +16,11 @@ const styles = {
     background: 'bg-blue-100',
     title: 'text-blue-700',
   },
+  remove: {
+    name: 'removed',
+    background: 'bg-red-100',
+    title: 'text-red-700',
+  },
 }
 
 export default function Labels({ type }) {
