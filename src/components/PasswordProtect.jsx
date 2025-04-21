@@ -34,7 +34,9 @@ const PasswordProtect = () => {
     e.preventDefault()
 
     if (protectedPages[page] === password) {
-      document.cookie = `authenticated_${page}=true; path=${page}; SameSite=Lax`
+      const expiration = new Date()
+      expiration.setDate(expiration.getDate() + 7)
+      document.cookie = `authenticated_${page}=true; path=${page}; SameSite=Lax; expires=${expiration.toUTCString()}`
       router.push(searchParams.get('redirect') || page)
     } else {
       setError('رمز عبور اشتباه است')
