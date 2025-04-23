@@ -82,5 +82,5 @@
 }
 
 ::marker {
-  @apply font-bold text-blue-500;
+  @apply text-lg font-bold text-blue-500;
 }
