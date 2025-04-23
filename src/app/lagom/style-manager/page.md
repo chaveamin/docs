@@ -29,7 +29,7 @@ nextjs:
 ## صفحه اصلی
 
 قالب لاگوم شامل 4 سبک است که می‌توانید در تب "Styles" در پنل قالب پیدا کنید.
-![تنظیمات قالب لاگوم](/lagom/style-manager/style-manager_main_page.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style-manager_main_page.png)
 
 1. **"Color Scheme"** - طرح رنگ فعال فعلی را برای یک سبک لاگوم فعال نمایش می دهد.
 1. **"Status"** - نشان می دهد که آیا یک سبک لاگوم فعال شده است یا خیر.
@@ -53,7 +53,7 @@ nextjs:
 
 ### طیف های رنگی
 
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-color_schemes.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-color_schemes.png)
 
 این بخش 5 طرح رنگی از پیش تعریف شده را ارائه می دهد. شما می توانید آزادانه طرحی را انتخاب کنید که می خواهید آن را فعال یا تغییر دهید. با دنبال کردن مراحل زیر می توانید طرح ترجیحی را فعال کنید:
 
@@ -73,7 +73,7 @@ nextjs:
 - رنگ های متن برای سرفصل ها، پاراگراف ها، منو و غیره
 - رنگ حاشیه برای فرم ها، دکمه های پیشفرض، تقسیم کننده ها و غیره
 
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_gray.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_gray.png)
 
 ##### Primary
 
@@ -83,7 +83,7 @@ nextjs:
 - رنگ پس‌زمینه یا حاشیه برای دکمه‌ها، پنل ها، جعبه‌های اصلی.
 - رنگ فونت برای متون اصلی
 
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_primary.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_primary.png)
 
 ##### Secondary
 
@@ -92,7 +92,7 @@ nextjs:
 - پس زمینه برای بخش های ثانویه.
 - پس زمینه برای پنل های ثانویه، جعبه ها.
 
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_secondary.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_secondary.png)
 
 ##### Success, Info, Warning, Danger
 
@@ -102,27 +102,27 @@ nextjs:
 - برچسب ها و نشان ها
 - رنگ های متن
 
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_succes.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_succes.png)
 
 ##### آیکون های UI
 
 در اینجا می‌توانید یک رنگ پیشفرض برای آیکون های رابط کاربری کوچک که در منو، دکمه‌ها و پنل های اصلی نمایش داده می‌شوند، تعریف کنید.
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_icon.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_icon.png)
 
 ##### تصاویر SVG
 
 این بخش به شما این امکان را می دهد که رنگ های هر تصویر مورد استفاده در قالب را مدیریت کنید. مثال زیر رنگ هایی را برای سبک "Modern" ارائه می دهد. علاوه بر این، سبک های دیگر لاگوم متغیرهای متفاوتی را در این بخش نمایش می دهد.
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_svg.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_svg.png)
 
 ##### Background
 
 در بخش "Background"، می‌توانید رنگ بدنه قالب را تعریف کنید.
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-colors_bg.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-colors_bg.png)
 
 #### رنگ های دارک مود {% version v="2.3.0" %}{% /version %}
 
 این بخش به پیکربندی متغیرهای رنگ مورد استفاده در حالت تاریک اختصاص دارد که در `RS Themes -> Settings -> General` موجود است. برای اطلاعات بیشتر، این لینک را دنبال کنید - [فعالسازی حالت تاریک](/lagom/settings#halt-taryk).
-![تنظیمات قالب لاگوم](/lagom/style-manager/settings-general-color_variables-dark_mode-1.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/settings-general-color_variables-dark_mode-1.png)
 
 ### تاپیوگرافی
 
@@ -152,7 +152,7 @@ nextjs:
 
 - "Font Colors" - رنگ هایی را برای فونت های نمایش داده شده در پس زمینه روشن تعریف کنید.
 - "Secondary Font Colors" - مخفف رنگ های فونت های نمایش داده شده در رنگ های پس زمینه تیره مانند پس زمینه های "اصلی" و "ثانویه" است، به عنوان مثال:
-  ![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-typograpy_secondary_2.png)
+  ![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-typograpy_secondary_2.png)
 
 #### رنگ های لینک
 
@@ -161,12 +161,12 @@ nextjs:
 - "Default Links" - رنگ‌هایی را برای لینک هایی که در توضیحات مقاله، تیکت ها، مقالات پایگاه دانش و غیره قرار داده شده‌اند، مشخص کنید.
 - "Main Navigation Links" - رنگ ها را برای لینک های منوی اصلی تعریف کنید، به طور پیشفرض برای منوی بالا و چپ استفاده می شود.
 - "Sub Navigation Links" - متغیرهایی هستند که برای لینک های منوی "نوار بالا"، لینک های منوی "فوتر" و همچنین لینک های منوی "تب ها" استفاده می شوند.
-  ![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-typography_link.png)
+  ![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-typography_link.png)
 
 #### رنگ های لینک در حالت تاریک {% version v="2.3.0" %}{% /version %}
 
 این بخش به پیکربندی متغیرهای رنگ مورد استفاده در حالت تاریک اختصاص دارد که در مسیر `RS Themes -> Settings -> General` موجود است. برای اطلاعات بیشتر، لینک را دنبال کنید - [فعالسازی حالت تاریک](/lagom/settings#halt-taryk).
-![تنظیمات قالب لاگوم](/lagom/style-manager/settings-general-link_colors_dark_mode-1.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/settings-general-link_colors_dark_mode-1.png)
 
 #### اندازه فونت
 
@@ -180,4 +180,82 @@ nextjs:
 #### UI Border Radius
 
 در این بخش می توانید اندازه های مختلف را برای گردی حاشیه پیدا کنید. این متغیرها به تمام عناصر UI که دارای حاشیه گرد هستند، به عنوان مثال، دکمه ها، پنل ها، ورودی ها و غیره اختصاص داده می شوند.
-![تنظیمات قالب لاگوم](/lagom/style-manager/style_manager-general_border_radius.png)
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-general_border_radius.png)
+
+#### UI Shadow
+
+به راحتی می توانید سبکی از سایه ها را برای اندازه های خاص تنظیم کنید. این متغیرها برای تمام عناصر UI که دارای سایه است، قابل استفاده هستند.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-general_shadow.png)
+
+#### UI Elements Height
+
+ارتفاع مورد استفاده برای دکمه ها، ورودی ها، انتخابگرها و غیره را مشخص کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-general_height.png)
+
+#### UI States
+
+رنگ هایی را که برای هشدارها، پیام ها و سایر عناصر حالت استفاده می شود، تعریف کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-general_state.png)
+
+#### Labels
+
+رنگ ها را برای برچسب ها و نشان ها تنظیم کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-general_labels.png)
+
+#### UI Max Width
+
+حداکثر عرض کانتینر از عناصر خاص را در قالب لاگوم تعیین کنید. به عنوان مثال، این مقادیر برای تنظیم عرض کادرهای "ورود" و "ثبت نام" استفاده می شود.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-general_max_width.png)
+
+### منو
+
+تب "Navigation" در مدیریت سبک لاگوم شما را قادر می سازد تا متغیرهای اختصاص داده شده به طرح بندی های مختلف در قالب لاگوم را پیکربندی کنید.
+
+#### لوگوی منو
+
+این بخش به شما امکان می دهد ارتفاع لوگوها یا تصاویر مورد استفاده در منوی قالب را پیکربندی کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-navigation_logo.png)
+
+#### طرح بندی منوی بالا
+
+متغیرهای منو را برای طرح‌بندی‌های Condensed، Condensed Banner و Default پیکربندی کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-navigation_top.png)
+
+- Shadow - اندازه سایه نمایش داده شده در زیر منوی بالا را انتخاب کنید.
+- "Menu Link - Color" - رنگی را برای لینک های منوی اصلی تنظیم کنید.
+- "Menu Link - Hover Color" - یک رنگ حالت هاور و "فعال" را برای لینک های منوی اصلی تعریف کنید.
+- "Menu Link - Font Size" - اندازه فونت را برای لینک های منوی اصلی مشخص کنید.
+- "Menu Link - Font Weight" - وزن فونت را برای لینک های منوی اصلی تنظیم کنید.
+- "Menu Link - Line Height" - ارتفاع خط را برای لینک های منوی اصلی انتخاب کنید.
+- "Menu Link - Icon Size" - اندازه آیکون های مورد استفاده در لینک های منوی اصلی را تعیین کنید.
+- "Menu Link - SVG Icon Size" - اندازه آیکون های SVG مورد استفاده در لینک های منوی اصلی را تنظیم کنید.
+- "Menu Link - Icon Color" - رنگی را برای آیکون های مورد استفاده در لینک های منوی اصلی انتخاب کنید.
+- "Menu Link - Icon Hover Color" - یک رنگ حالت "هاور" و "فعال" را برای لینک های منوی اصلی مشخص کنید.
+
+#### طرح بندی منوی کناری
+
+متغیرهای منو را برای طرح بندی کناری تنظیم کنید
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-navigation_left.png)
+
+- "Width" - عرض منوی منوی سمت راست را تنظیم کنید.
+- "Shadow" - اندازه سایه نمایش داده شده در سمت راست را انتخاب کنید.
+- "Menu Link - Color" - یک رنگ را برای لینک های منو اصلی پیکربندی کنید.
+- "Menu Link - Hover Color" - یک رنگ حالت هاور را برای لینک های منو اصلی تعریف کنید.
+- "Menu Link - Active Color" - یک رنگ حالت "فعال" را برای لینک های منو اصلی مشخص کنید.
+- "Menu Link - Font Size" - اندازه فونت را برای لینک های منو اصلی انتخاب کنید.
+- "Menu Link - Font Weight"- وزن فونت را برای لینک های منو اصلی تعریف کنید.
+- "Menu Link - Icon Size" - اندازه آیکون های مورد استفاده در لینک های منو اصلی را انتخاب کنید.
+- "Menu Link - SVG Icon Size" - اندازه آیکون های SVG مورد استفاده در لینک های منو اصلی را مشخص کنید.
+- "Menu Link - Icon Color" - رنگی را برای آیکون های مورد استفاده در لینک های منو اصلی انتخاب کنید.
+- "Menu Link - Icon Hover Color" - یک رنگ حالت هاور را برای لینک های منو اصلی تنظیم کنید.
+- "Menu Link - Icon Active Color" - یک رنگ حالت "فعال" را برای لینک های منو اصلی تعریف کنید.
+
+#### منوی کناری باز
+
+متغیرهای منو را برای طرح بندی کناری باز تنظیم کنید
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-navigation_left_wide.png)
+
+- "Width" - عرض منوی ناوبری باز سمت راست را تنظیم کنید.
+- "Menu Link - SVG Icon Size" - اندازه ایکون SVG را برای لینک های منو اصلی تنظیم کنید.
+
+### طرح بندی ها
