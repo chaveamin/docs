@@ -327,3 +327,69 @@ nextjs:
 ### فرم ها
 
 صفحه "Forms" در مدیریت سبک های لاگوم شما را قادر می سازد تا متغیرهای اختصاص داده شده به فیلدهای فرم مورد استفاده در صفحات قالب لاگوم را پیکربندی کنید.
+
+#### Label
+
+تنظیم متغیرهای مورد استفاده برای سبک فونت برچسب های فرم.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-forms_label.png)
+
+#### Field
+
+متغیرهای مورد استفاده برای سبک فیلدهای "input"، "textarea" و "select" را تعریف کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-forms_field.png)
+
+#### Radio and Checkbox
+
+متغیرهای مورد استفاده برای طراحی عناصر فرم "radio" و "checkbox" را مشخص کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-forms_radio.png)
+
+### اِلِمان ها
+
+صفحه "Elements" در مدیریت سبک لاگوم امکان تنظیم متغیرهای اختصاص داده شده به عناصر مختلف مورد استفاده در قالب لاگوم و در فرآیند سفارش را فراهم می کند.
+
+#### Promotion Slider, Promotion Slider Small
+
+به عنوان بخشی از سفارشی سازی اسلایدرهای تبلیغاتی، می توانید آزادانه سبک فونت عنوان و همچنین اندازه تصویر را پیکربندی کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-elements_promotion.png)
+
+- "Default Promotion Slider" در داشبورد نمایش داده می شود:
+  ![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-elements_promotion_base_preview.png)
+
+- "Small Promotion Slider" در سایدبار نشان داده میشود:
+  ![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-elements_promotion_small_preview.png)
+
+#### Login/Register Box
+
+متغیرهای مورد نیاز برای کادرهای "ورود" و "ثبت نام" را تنظیم کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-elements_login_register.png)
+
+#### Package, Package Small
+
+متغیرهای ضروری برای جعبه های "محصول" را مشخص کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-elements_package.png)
+
+#### Price, Price Small, Price Extra Small
+
+متغیرهای مورد استفاده برای نمایش اندازه‌های مختلف قیمت‌ها و همچنین مورد نیاز برای فیلدهای "پکیج ها"، "پنل های خلاصه"، «جستجوی دامنه» را پیکربندی کنید..
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-elements_price.png)
+
+### سایت
+
+تب "Site" در مدیریت سبک لاگوم به شما امکان می دهد متغیرهای مورد استفاده برای صفحات "سایت" را تنظیم کنید:
+
+- صفحه اصلی
+- صفحات محصول MarketConnect
+
+#### Banner
+
+متغیر مورد استفاده برای بنرها در صفحات "سایت" را تعریف کنید.
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-site_banner.png)
+
+1. متغیرهای "Title" به شما امکان می دهند سبک فونت را برای عنوان "بنر" پیکربندی کنید.
+2. متغیرهای "Desc" به شما امکان می دهند سبک فونت را برای توضیحات "بنر" تعریف کنید.
+3. "Illustration Width" مخفف اندازه برای تصویر "بنر" است.
+4. "Minimum Height" به شما امکان می دهد حداقل ارتفاع را برای "بنر" تنظیم کنید.
+5. "Content Width" شما را قادر می سازد حداکثر عرض محتوای "بنر" را پیکربندی کنید.
+
+به عنوان مثال، نگاهی دقیق تر به نحوه اعمال این متغیرها در صفحه محصول "Weebly" بیندازید:
+![مدیریت استایل قالب لاگوم](/lagom/style-manager/style_manager-site_banner_preview.png)
