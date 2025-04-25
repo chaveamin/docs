@@ -31,7 +31,7 @@ export function Prose({ as, className, ...props }) {
         // h5
         'prose-h5:lg:text-lg prose-h5:font-medium prose-h5:translate-x-7 prose-h5:text-[19px]',
         // p
-        'prose-p:text-[17px] prose-p:text-gray-600',
+        'prose-p:lg:text-[17px] prose-p:text-[15px] prose-p:lg:leading-[1.75] prose-p:leading-[2] prose-p:text-gray-600',
       )}
       {...props}
     />

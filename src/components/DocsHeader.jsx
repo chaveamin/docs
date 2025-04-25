@@ -20,7 +20,7 @@ export function DocsHeader({ title }) {
         <p className="text-sm font-medium text-sky-500">{section.title}</p>
       )}
       {title && (
-        <h1 className="text-4xl font-light text-slate-900 dark:text-white">
+        <h1 className="text-3xl font-light text-slate-900 lg:text-4xl dark:text-white">
           {title}
         </h1>
       )}

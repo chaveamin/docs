@@ -1,8 +1,8 @@
 import localFont from 'next/font/local'
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
-
 import '@/styles/tailwind.css'
+import NextTopLoader from 'nextjs-toploader'
 
 const iranyekan = localFont({
   src: '../fonts/IRANYekanXVFaNumVF.woff2',
@@ -28,7 +28,10 @@ export default function RootLayout({ children }) {
     >
       <body className="flex min-h-full bg-white dark:bg-slate-900">
         <Providers>
-          <Layout>{children}</Layout>
+          <Layout>
+            <NextTopLoader color="#2563eb" height={2} />
+            {children}
+          </Layout>
         </Providers>
       </body>
     </html>
