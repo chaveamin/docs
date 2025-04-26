@@ -32,6 +32,8 @@ export function Prose({ as, className, ...props }) {
         'prose-h5:lg:text-lg prose-h5:font-medium prose-h5:translate-x-7 prose-h5:text-[19px]',
         // p
         'prose-p:lg:text-[17px] prose-p:text-[15px] prose-p:lg:leading-[1.75] prose-p:leading-[2] prose-p:text-gray-600',
+        // ul
+        'prose-ul:pl-0 prose-ul:pr-[26px]',
       )}
       {...props}
     />

@@ -2,8 +2,10 @@
 title: 'لیست تغییرات'
 nextjs:
   metadata:
-    title: 'لیست تغییرات'
+    title: 'لیست تغییرات قالب لاگوم'
 ---
+
+# لیست تغییرات
 
 {% changelog version="2.3.4" date="2025-03-17" compatibility="WHMCS 8.12.0 - 8.12.1" %}
 

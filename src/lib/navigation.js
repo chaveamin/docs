@@ -15,6 +15,7 @@ export const navigation = [
       { title: 'مشکلات رایج', href: '/lagom/common-problems' },
       { title: 'پیکربندی', href: '/lagom/settings' },
       { title: 'مدیریت استایل ها', href: '/lagom/style-manager' },
+      { title: 'مدیریت طرح بندی', href: '/lagom/layout-manager' },
     ],
     link: '/lagom',
   },
