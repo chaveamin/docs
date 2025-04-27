@@ -26,13 +26,13 @@ nextjs:
 {% callout type="note" title="نکته" %}
 اگر از [سایت ساز لاگوم](#) استفاده می‌کنید، صفحه زیر و تنظیمات آن ممکن است متفاوت باشد. می‌توانید در [این مقاله](#)، درباره پیکربندی این صفحه هنگام فعال بودن "CMS" بیشتر بدانید.
 {% /callout %}
-![مدیریت استایل قالب لاگوم](/lagom/layout-manager/layout_manager-main_menu_settings.png)
+![مدیریت طرح‌بندی قالب لاگوم](/lagom/layout-manager/layout_manager-main_menu_settings.png)
 
 1. **Categories** - مدیریت طرح‌بندی به دو دسته "Main Menu" و "Footer" تقسیم شده است. ابتدا، دسته‌ای را که می‌خواهید پیکربندی کنید، انتخاب کنید.
 
 2. **Guest Client** - مشتریانی را که در سایت ثبت نام نکرده اند.
 
-3. **Existing Client** - به معنای مشتریانی است که قبلاً ثبت‌ نام کرده‌اند و به ناحیه کاربری وارد شده‌اند.
+3. **Existing Client** - به معنای مشتریانی است که ثبت‌ نام کرده و به ناحیه کاربری وارد شده‌اند.
 
 4. **Actions** - از این دکمه برای باز کردن منوی کشویی با اقدامات زیر استفاده کنید:
 
@@ -50,6 +50,55 @@ nextjs:
 
 قالب لاگوم به شما این امکان را می‌دهد که با استفاده از قابلیت [مدیریت منو](#)، آیتم‌های منو را مدیریت کنید.
 
-### طرح‌بندی‌های موجود منوی
+### طرح‌بندی‌های منو
 
-قالب لاگوم شامل 5 طرح‌بندی منوی مختلف برای انتخاب است.
+قالب لاگوم شامل 5 طرح‌بندی مختلف منو است.
+
+- [Default](https://demo.rsstudio.net/lagom/?rsmenulayout=default&rsstyle=modern&rscolorstyle=default)
+- [Condensed](https://demo.rsstudio.net/lagom/?rsmenulayout=condensed&rsstyle=modern&rscolorstyle=default)
+- [Condensed Banner](https://demo.rsstudio.net/lagom/?rsmenulayout=condensed-banner&rsstyle=modern&rscolorstyle=default)
+- [Left](https://demo.rsstudio.net/lagom/?rsmenulayout=left-nav&rsstyle=modern&rscolorstyle=default)
+- [Left Wide](https://demo.rsstudio.net/lagom/?rsmenulayout=left-nav-wide&rsstyle=modern&rscolorstyle=default)
+
+## طرح‌بندی فوتر
+
+### مدیریت طرح‌بندی فوتر
+
+برای شروع مدیریت طرح‌بندی منوی فوتر، باید این مراحل را دنبال کنید.
+
+1. پنل قالب را باز کنید
+2. تب "Layouts" را باز کنید.
+3. در نوار کناری "Categories" روی "Footer Menu" کلیک کنید.
+
+#### تنظیمات منوی فوتر
+
+![مدیریت طرح‌بندی قالب لاگوم](/lagom/layout-manager/layout_manager-footer_settings.png)
+
+1. **Categories** - مدیریت طرح‌بندی به دو دسته "Main Menu" و "Footer" تقسیم شده است. ابتدا، دسته‌ای را که می‌خواهید پیکربندی کنید، انتخاب کنید.
+
+2. **Guest Client** - مشتریانی را که در سایت ثبت نام نکرده اند.
+
+3. **Existing Client** - به معنای مشتریانی است که ثبت‌ نام کرده و به ناحیه کاربری وارد شده‌اند.
+
+4. **Actions** - از این دکمه برای باز کردن منوی کشویی با اقدامات زیر استفاده کنید:
+
+   - "Activate for Guest Client" - طرح‌بندی انتخاب‌ شده را برای مشتریانی که به ناحیه کاربری وارد **نشده‌اند**، فعال میکند.
+
+   - "Activate for Existing Client" - طرح‌بندی مشخص‌ شده را برای مشتریانی که به ناحیه کاربری وارد **شده‌اند**، فعال میکند.
+
+   - "Live Preview" - یک برگه جدید در پنجره مرورگر شما باز میکند و طرح‌بندی انتخاب‌ شده را در مرورگر شما نمایش میدهد.
+
+### ایجاد طرح‌بندی فوتر سفارشی
+
+با استفاده از قالب لاگوم، می‌توانید طرح‌بندی فوتر سفارشی را از صفر تنظیم یا ایجاد کنید. برای کسب اطلاعات بیشتر به مقاله [ایجاد طرح‌بندی فوتر سفارشی](#) مراجعه کنید.
+
+### مدیریت آیتم های فوتر
+
+قالب لاگوم به شما این امکان را می‌دهد که با استفاده از قابلیت [مدیریت منو](#)، آیتم‌های فوتر را مدیریت کنید.
+
+### طرح‌بندی‌های فوتر
+
+قالب لاگوم شامل 2 طرح‌بندی مختلف فوتر است.
+
+- [Default Footer](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=modern)
+- [Extended Footer](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=modern)

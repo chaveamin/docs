@@ -16,6 +16,7 @@ export const navigation = [
       { title: 'پیکربندی', href: '/lagom/settings' },
       { title: 'مدیریت استایل ها', href: '/lagom/style-manager' },
       { title: 'مدیریت طرح بندی', href: '/lagom/layout-manager' },
+      { title: 'مدیریت منو', href: '/lagom/menu-manager' },
     ],
     link: '/lagom',
   },
