@@ -18,6 +18,7 @@
     "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.7",
     "clsx": "^2.1.0",
+    "date-fns": "^4.1.0",
     "fast-glob": "^3.2.12",
     "flexsearch": "^0.7.31",
     "js-yaml": "^4.1.0",
