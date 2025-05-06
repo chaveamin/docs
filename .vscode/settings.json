@@ -1,0 +1,12 @@
+{
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/src/app",
+      "title": "app"
+    },
+    {
+      "path": "[[workspace]]/src/app"
+    }
+  ],
+  "frontMatter.git.enabled": true
+}
