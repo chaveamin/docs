@@ -30,7 +30,6 @@ function ChevronIcon() {
 
 export function Navigation({ className, onLinkClick }) {
   let pathname = usePathname()
-  console.log(pathname)
 
   return (
     <nav className={clsx('text-base lg:text-sm', className)}>
@@ -50,7 +49,7 @@ export function Navigation({ className, onLinkClick }) {
               </DisclosureButton>
               <DisclosurePanel
                 transition="true"
-                className="origin-top transition duration-200 ease-out data-closed:-translate-y-6 data-closed:opacity-0"
+                className="ms-2 origin-top border-r border-zinc-200 ps-4 transition duration-200 ease-out data-closed:-translate-y-6 data-closed:opacity-0"
               >
                 <ul role="list" className="mt-2 space-y-2 lg:mt-4 lg:space-y-4">
                   {section.links.map((link) => (
@@ -59,10 +58,10 @@ export function Navigation({ className, onLinkClick }) {
                         href={link.href}
                         onClick={onLinkClick}
                         className={clsx(
-                          'flex h-6 items-center overflow-hidden text-ellipsis whitespace-nowrap transition-all duration-300 before:pointer-events-none before:absolute before:top-3.5 before:-right-1 before:h-1.5 before:w-1.5 before:rounded-full',
+                          'flex h-6 items-center overflow-hidden text-ellipsis whitespace-nowrap transition-all duration-300',
                           link.href === pathname
-                            ? 'rounded-md bg-sky-100 p-4 font-semibold text-sky-600 before:bg-sky-600'
-                            : 'text-slate-500 before:hidden before:bg-slate-300 hover:-translate-x-2 hover:text-sky-600 dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300',
+                            ? 'rounded-md font-semibold text-sky-600'
+                            : 'text-slate-500 hover:-translate-x-2 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300',
                         )}
                       >
                         {link.title}

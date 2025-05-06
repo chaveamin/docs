@@ -63,7 +63,10 @@ export function TableOfContents({ tableOfContents }) {
     <>
       {!isHomepage && !isChangelog ? (
         <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pl-2">
-          <nav aria-labelledby="on-this-page-title" className="w-56">
+          <nav
+            aria-labelledby="on-this-page-title"
+            className="w-56 border-b pb-5"
+          >
             {tableOfContents.length > 0 && (
               <>
                 <h2
@@ -80,8 +83,8 @@ export function TableOfContents({ tableOfContents }) {
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
-                              : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-500',
+                              ? 'font-bold text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
+                              : 'font-bold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-500',
                           )}
                         >
                           {section.title}
@@ -102,7 +105,7 @@ export function TableOfContents({ tableOfContents }) {
                                 className={
                                   isActive(subSection)
                                     ? 'text-sky-500 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
-                                    : 'hover:text-sky-500 dark:hover:text-sky-300'
+                                    : 'text-slate-400'
                                 }
                               >
                                 {subSection.title}
