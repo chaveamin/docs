@@ -3,6 +3,8 @@ import { PrevNextLinks } from '@/components/PrevNextLinks'
 import { Prose } from '@/components/Prose'
 import { TableOfContents } from '@/components/TableOfContents'
 import { collectSections } from '@/lib/sections'
+import fs from 'fs'
+console.log(fs.stat)
 
 export function DocsLayout({ children, frontmatter: { title }, nodes }) {
   let tableOfContents = collectSections(nodes)
