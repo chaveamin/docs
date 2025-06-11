@@ -57,7 +57,7 @@ function Header() {
         </Link>
         <Link
           className="hidden rounded-md bg-blue-100 px-4 py-2 font-semibold text-blue-600 transition-colors md:block dark:bg-slate-800/75"
-          href="https://designesia.ir/"
+          href="https://t.me/frontmstr"
           target="_blank"
         >
           پشتیبانی
