@@ -1,7 +1,7 @@
 import { nodes as defaultNodes, Tag } from '@markdoc/markdoc'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 import yaml from 'js-yaml'
-
+import { EnlargeImage } from '@/components/EnlargeImage'
 import { DocsLayout } from '@/components/DocsLayout'
 import { Fence } from '@/components/Fence'
 
@@ -62,6 +62,14 @@ const nodes = {
       language: {
         type: String,
       },
+    },
+  },
+  image: {
+    render: EnlargeImage,
+    attributes: {
+      src: { type: String, required: true },
+      alt: { type: String },
+      title: { type: String },
     },
   },
 }

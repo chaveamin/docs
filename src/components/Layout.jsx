@@ -47,7 +47,7 @@ function Header() {
       <div className="-my-5 ml-6 sm:mr-8 md:mr-0">
         <Search />
       </div>
-      <div className="relative flex basis-0 items-center justify-between gap-6 sm:gap-8 md:grow">
+      <div className="relative flex basis-0 items-center gap-6 sm:gap-2 md:grow">
         <Link
           className="hidden rounded-md bg-blue-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-blue-500 md:block dark:bg-slate-800/75"
           href="https://designesia.ir/"
@@ -55,7 +55,14 @@ function Header() {
         >
           بازگشت به سایت
         </Link>
-        <ThemeSelector className="relative z-10" />
+        <Link
+          className="hidden rounded-md bg-blue-100 px-4 py-2 font-semibold text-blue-600 transition-colors md:block dark:bg-slate-800/75"
+          href="https://designesia.ir/"
+          target="_blank"
+        >
+          پشتیبانی
+        </Link>
+        <ThemeSelector className="relative z-10 mr-auto" />
       </div>
     </header>
   )
