@@ -58,7 +58,7 @@ export function Navigation({ className, onLinkClick }) {
                         href={link.href}
                         onClick={onLinkClick}
                         className={clsx(
-                          'flex h-6 items-center overflow-hidden text-ellipsis whitespace-nowrap transition-all duration-300',
+                          'flex h-6 items-center truncate transition-all duration-300',
                           link.href === pathname
                             ? 'rounded-md font-semibold text-sky-600'
                             : 'text-slate-500 hover:-translate-x-2 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300',

@@ -41,16 +41,6 @@ export const navigation = [
     link: '/whmcs-advanced-menu-manager',
   },
   {
-    title: 'افزونه تایید ایمیل',
-    links: [
-      {
-        title: 'نصب و پیکربندی افزونه تایید ایمیل',
-        href: '/whmcs-email-verification',
-      },
-    ],
-    link: '/whmcs-email-verification',
-  },
-  {
     title: 'افزونه اعلان تلگرام',
     links: [
       {

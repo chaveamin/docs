@@ -62,7 +62,7 @@ export function TableOfContents({ tableOfContents }) {
   return (
     <>
       {!isHomepage && !isChangelog ? (
-        <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pl-2">
+        <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-x-hidden xl:overflow-y-scroll xl:py-16 xl:pl-2">
           <nav
             aria-labelledby="on-this-page-title"
             className="w-56 border-b pb-5"
@@ -83,8 +83,8 @@ export function TableOfContents({ tableOfContents }) {
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'font-bold text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
-                              : 'font-bold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-500',
+                              ? 'truncate font-bold text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
+                              : 'truncate font-bold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-500',
                           )}
                         >
                           {section.title}
@@ -97,7 +97,7 @@ export function TableOfContents({ tableOfContents }) {
                         >
                           {section.children.map((subSection) => (
                             <li
-                              className="h-6 overflow-hidden text-ellipsis whitespace-nowrap transition-all hover:pr-2"
+                              className="h-6 truncate transition-all hover:pr-2"
                               key={subSection.id}
                             >
                               <Link

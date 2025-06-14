@@ -11,8 +11,6 @@
 
 {% quick-link title="قالب ادمین ایکس" icon="installation" href="/adminx"  /%}
 
-{% quick-link title="افزونه تایید ایمیل whmcs" icon="plugins" href="/whmcs-email-verification" /%}
-
 {% quick-link title="مدیریت پیشرفته منو" icon="theming" href="/whmcs-advanced-menu-manager" /%}
 
 {% quick-link title="افزونه اعلان تلگرام whmcs" icon="theming" href="/whmcs-telegram-notification" /%}

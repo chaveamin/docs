@@ -26,12 +26,6 @@ export function EnlargeImage({ src, alt }) {
             className="relative mx-8 flex items-center justify-center"
             onClick={closeModal}
           >
-            <span
-              className="absolute top-6 right-8 text-3xl"
-              onClick={closeModal}
-            >
-              &#10005;
-            </span>
             <img className="!m-0 size-fit object-contain" src={src} alt={alt} />
           </span>
         </span>
