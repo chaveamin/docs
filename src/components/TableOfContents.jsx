@@ -62,7 +62,7 @@ export function TableOfContents({ tableOfContents }) {
   return (
     <>
       {!isHomepage && !isChangelog ? (
-        <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-x-hidden xl:overflow-y-scroll xl:py-16 xl:pl-2">
+        <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-x-hidden xl:overflow-y-auto xl:py-16 xl:pl-2">
           <nav
             aria-labelledby="on-this-page-title"
             className="w-56 border-b pb-5"

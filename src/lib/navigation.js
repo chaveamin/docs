@@ -1,9 +1,9 @@
 export const navigation = [
-  {
-    title: 'افزونه sodium',
-    links: [{ title: 'فعالسازی sodium', href: '/sodium' }],
-    link: '/sodium',
-  },
+  // {
+  //   title: 'افزونه sodium',
+  //   links: [{ title: 'فعالسازی sodium', href: '/sodium' }],
+  //   link: '/sodium',
+  // },
   {
     title: 'قالب لاگوم',
     links: [
@@ -19,6 +19,18 @@ export const navigation = [
       { title: 'مدیریت منو', href: '/lagom/menu-manager' },
     ],
     link: '/lagom',
+  },
+  {
+    title: 'افزونه اعلان مشتری لاگوم',
+    links: [
+      { title: 'نصب', href: '/extensions/client-notifications' },
+      { title: 'آپدیت', href: '/extensions/client-notifications/update' },
+      {
+        title: 'پیکربندی',
+        href: '/extensions/client-notifications/configuration',
+      },
+    ],
+    link: '/extensions/client-notifications',
   },
   {
     title: 'سایت ساز لاگوم',

@@ -1,7 +1,7 @@
-{% callout type="note" %}
+<!-- {% callout type="note" %}
 به دلیل اینکود بودن فایل های محصول، افزونه **Sodium** باید در هاست شما فعال باشد. [نحوه فعالسازی](/sodium/)
 
-{% /callout %}
+{% /callout %} -->
 
 {% quick-links %}
 
