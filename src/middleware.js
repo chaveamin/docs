@@ -3,6 +3,8 @@ import { NextResponse } from 'next/server'
 export const protectedPages = {
   '/lagom': process.env.NEXT_PUBLIC_PASSWORD_LAGOM,
   '/website-builder': process.env.NEXT_PUBLIC_PASSWORD_BUILDER,
+  '/extensions/client-notifications':
+    process.env.NEXT_PUBLIC_PASSWORD_CLIENTNOTIF,
 }
 
 export function middleware(req) {
@@ -32,5 +34,9 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: ['/lagom/:path*', '/website-builder/:path*'],
+  matcher: [
+    '/lagom/:path*',
+    '/website-builder/:path*',
+    '/extensions/client-notifications/:path*',
+  ],
 }

@@ -9,6 +9,8 @@
 
 {% quick-link title="سایت ساز لاگوم" icon="installation" href="/website-builder"  /%}
 
+{% quick-link title="افزونه اعلان مشتری لاگوم" icon="installation" href="/extensions/client-notifications"  /%}
+
 {% quick-link title="قالب ادمین ایکس" icon="installation" href="/adminx"  /%}
 
 {% quick-link title="مدیریت پیشرفته منو" icon="theming" href="/whmcs-advanced-menu-manager" /%}
