@@ -33,6 +33,18 @@ export const navigation = [
     link: '/extensions/client-notifications',
   },
   {
+    title: 'افزونه بنر تبلیغ لاگوم',
+    links: [
+      { title: 'نصب', href: '/extensions/promotion-manager' },
+      { title: 'آپدیت', href: '/extensions/promotion-manager/update' },
+      {
+        title: 'پیکربندی',
+        href: '/extensions/promotion-manager/configuration',
+      },
+    ],
+    link: '/extensions/promotion-manager',
+  },
+  {
     title: 'سایت ساز لاگوم',
     links: [{ title: 'نصب سایت ساز لاگوم', href: '/website-builder' }],
     link: '/website-builder',
