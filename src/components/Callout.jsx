@@ -18,7 +18,7 @@ const styles = {
   error: {
     container:
       'bg-red-50 border-t-5 border-t-red-600 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
-    title: '!text-red-900 !dark:text-red-500',
+    title: 'text-red-900 !dark:text-red-500',
     body: 'max-w-[40rem] text-justify text-red-800 [--tw-prose-underline:var(--color-red-400)] [--tw-prose-background:var(--color-red-50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-slate-300 dark:[--tw-prose-underline:var(--color-sky-700)] dark:prose-code:text-slate-300',
   },
 }

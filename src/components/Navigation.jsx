@@ -41,27 +41,27 @@ export function Navigation({ className, onLinkClick }) {
               className="group p-3"
               defaultOpen={pathname.includes(section.link)}
             >
-              <DisclosureButton className="flex cursor-pointer items-center">
-                <h2 className="text-base font-bold text-slate-900 dark:text-white">
+              <DisclosureButton className="group flex cursor-pointer items-center">
+                <h2 className="text-base font-bold text-slate-900 group-data-open:text-sky-600 dark:text-white dark:group-data-open:text-sky-400">
                   {section.title}
                 </h2>
                 <ChevronIcon />
               </DisclosureButton>
               <DisclosurePanel
                 transition="true"
-                className="ms-2 origin-top border-r border-zinc-200 ps-4 transition duration-200 ease-out data-closed:-translate-y-6 data-closed:opacity-0"
+                className="ms-2 origin-top border-r border-zinc-200 ps-4 transition duration-200 ease-out data-closed:-translate-y-6 data-closed:opacity-0 dark:border-slate-700"
               >
-                <ul role="list" className="mt-2 space-y-2 lg:mt-4 lg:space-y-4">
+                <ul role="list" className="mt-2 space-y-1 lg:mt-4">
                   {section.links.map((link) => (
                     <li key={link.href} className="relative">
                       <Link
                         href={link.href}
                         onClick={onLinkClick}
                         className={clsx(
-                          'flex h-6 items-center truncate transition-all duration-300',
+                          'flex h-6 items-center truncate p-4 transition-all duration-300',
                           link.href === pathname
-                            ? 'rounded-md font-semibold text-sky-600'
-                            : 'text-slate-500 hover:-translate-x-2 hover:text-sky-600 dark:text-slate-400 dark:hover:text-slate-300',
+                            ? 'rounded-md bg-sky-50 text-sky-600 dark:bg-slate-500 dark:text-white'
+                            : 'text-slate-500 hover:-translate-x-2 dark:text-slate-300',
                         )}
                       >
                         {link.title}

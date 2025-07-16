@@ -62,10 +62,10 @@ export function TableOfContents({ tableOfContents }) {
   return (
     <>
       {!isHomepage && !isChangelog ? (
-        <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-x-hidden xl:overflow-y-auto xl:py-16 xl:pl-2">
+        <div className="tos relative mt-8 mr-8 border-r-1 border-zinc-200 pr-4 xl:sticky xl:top-[4.75rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.75rem)] xl:flex-none xl:overflow-x-hidden xl:overflow-y-auto xl:py-16 xl:pl-2 dark:border-slate-700">
           <nav
             aria-labelledby="on-this-page-title"
-            className="w-56 border-b pb-5"
+            className="w-56 border-b pb-5 dark:border-b-slate-700"
           >
             {tableOfContents.length > 0 && (
               <>
@@ -83,8 +83,8 @@ export function TableOfContents({ tableOfContents }) {
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'truncate font-bold text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
-                              : 'truncate font-bold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-500',
+                              ? 'truncate font-bold text-sky-600 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""] dark:text-sky-400'
+                              : 'truncate font-bold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-sky-400',
                           )}
                         >
                           {section.title}
@@ -104,8 +104,8 @@ export function TableOfContents({ tableOfContents }) {
                                 href={`#${subSection.id}`}
                                 className={
                                   isActive(subSection)
-                                    ? 'text-sky-500 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""]'
-                                    : 'text-slate-400'
+                                    ? 'text-sky-500 transition-all before:absolute before:right-0 before:h-6 before:w-px before:bg-sky-500 before:transition-all before:content-[""] dark:text-sky-400 before:dark:bg-sky-400'
+                                    : 'text-slate-400 dark:text-slate-300'
                                 }
                               >
                                 {subSection.title}

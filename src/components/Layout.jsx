@@ -56,7 +56,7 @@ function Header() {
           بازگشت به سایت
         </Link>
         <Link
-          className="hidden rounded-md bg-blue-100 px-4 py-2 font-semibold text-blue-600 transition-colors md:block dark:bg-slate-800/75"
+          className="hidden rounded-md bg-blue-100 px-4 py-2 font-semibold text-blue-600 transition-colors md:block dark:bg-slate-800/75 dark:text-white"
           href="https://t.me/frontmstr"
           target="_blank"
         >
@@ -81,7 +81,7 @@ export function Layout({ children }) {
       <div className="relative mx-auto flex w-full max-w-[92rem] flex-auto flex-col-reverse justify-center sm:px-2 lg:flex-row">
         {!isHomePage && (
           <div className="hidden lg:relative lg:block lg:flex-none">
-            <div className="absolute inset-y-0 left-0 w-[50vw] bg-slate-50 dark:hidden" />
+            <div className="absolute inset-y-0 left-0 w-[50vw] dark:hidden" />
             <div className="absolute top-16 bottom-0 left-0 hidden h-12 w-px bg-linear-to-t from-slate-800 dark:block" />
             <div className="absolute top-28 bottom-0 left-0 hidden w-px bg-slate-800 dark:block" />
             <div className="main-nav sticky top-[4.75rem] -mr-0.5 h-[calc(100vh-4.75rem)] overflow-x-hidden overflow-y-auto py-16 pr-0.5 pl-8 xl:w-72 xl:pl-8">
@@ -89,6 +89,7 @@ export function Layout({ children }) {
             </div>
           </div>
         )}
+
         {children}
       </div>
     </div>
