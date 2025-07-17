@@ -66,3 +66,119 @@
 ### محتوای بنر صفحه اصلی
 
 این بخش فقط زمانی قابل مشاهده است که گزینه ["Homepage"](#) در ابزارک ["Promotion Placement"](#) فعال باشد. این بخش به شما امکان میدهد تنظیمات مربوط به بنرهای نمایش داده شده در صفحه اصلی "Modern" و بخش ["Promotion Manager"](#) در سایت ساز لاگوم را پیکربندی کنید.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-8.png)
+
+#### Homepage Caption .1
+
+متن کوچکی که بالای عنوان بنر نمایش داده میشود.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-9.png)
+
+#### Homepage Title .2
+
+عنوان اصلی بنر را تنظیم کنید.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-10.png)
+
+#### Homepage sub-title .3
+
+متن توضیحی که زیر عنوان اصلی صفحه اصلی نمایش داده میشود را تنظیم کنید.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-11.png)
+
+#### Primary Button .4
+
+متن و آدرس اینترنتی دکمه اصلی را پیکربندی کنید. اگر این فیلدها خالی بمانند، دکمه نمایش داده نمیشود.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-12.png)
+
+#### Secondary Button .5
+
+متن و آدرس اینترنتی دکمه ثانویه را پیکربندی کنید. اگر این فیلدها خالی بمانند، دکمه نمایش داده نمیشود.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-13.png)
+
+#### Pagination Icon .6
+
+آیکون مربوط به ناوبری بنر تبلیغاتی را انتخاب کنید.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-15.png)
+
+#### Pagination Title .7
+
+عنوان ناوبری بنر تبلیغاتی را تنظیم کنید.
+![تنظیمات افزونه](/promo/promotion_manager-promotion_settings-14.png)
+
+## تنظیمات نمایش تبلیغ
+
+هنگام مدیریت یک بنر تبلیغاتی، نوار کناری "Display Settings" را در سمت راست خواهید یافت. این نوار کناری گزینه‌های متعددی برای سفارشی‌سازی نحوه نمایش بنر شما ارائه میدهد. برای آشنایی با تمام تنظیمات نمایش موجود، جزئیات زیر را بررسی کنید.
+
+### Promotion Placement
+
+انتخاب کنید که تبلیغات در ناحیه کاربری WHMCS شما کجا نمایش داده شود. این مورد را میتوان در ابزارک **"Promotion Placement"** پیکربندی کرد:
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-0.png)
+
+##### Client Home .1
+
+نمایش تبلیغات در داشبورد اصلی ناحیه کاربری.
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-1.png)
+
+##### Product Details .2
+
+نمایش بنر تبلیغاتی در صفحات مدیریت محصول.
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-2.png)
+
+##### Product List .3
+
+نمایش بنر تبلیغاتی در صفحه لیست محصولات.
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-3.png)
+
+##### Domain List .4
+
+نمایش بنر تبلیغاتی در صفحه لیست دامنه‌ها.
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-4.png)
+
+##### Cart Checkout .5
+
+بنر تبلیغاتی را در آخرین مرحله از فرآیند سفارش نمایش دهید.
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-5.png)
+
+##### Homepage .6
+
+نمایش بنر تبلیغاتی در صفحه اصلی (فقط برای قالب modern موجود است). این گزینه گزینه‌های پیکربندی اضافی شرح داده شده در بخش تنظیمات صفحه اصلی را نشان میدهد.
+![تنظیمات افزونه](/promo/promotion_manager-configuration-choose_placement-6.png)
+
+### انتخاب تصویر
+
+برای انتخاب تصویر، روی دکمه‌ی "Click to change" در ابزارک "Graphic" کلیک کنید:
+![تنظیمات افزونه](/promo/choose-graphic.png)
+
+به طور پیشفرض میتوانید از تصاویر از پیش تعریف‌ شده‌ی لاگوم که در بخش "Default Lagom Icons" موجود است، انتخاب کنید. برای افزودن آیکون‌ها یا تصاویر سفارشی خود، لطفاً آنها را در برگه‌ی [کتابخانه‌ی رسانه‌ی](#) خود بارگذاری کنید.
+![تنظیمات افزونه](/promo/media-modal.png)
+
+### انتخاب نوع تصویر
+
+افزونه میتواند از بین دو نوع تصویر مختلف یکی را انتخاب کند. تغییر بین ""Banner Horizontal" و "Banner Vertical" پیشنمایش تبلیغات در سمت چپ را تغییر میدهد. "Banner Homepage" پیشنمایش ندارد.
+![تنظیمات افزونه](/promo/graphic-type.png)
+
+#### Background image
+
+این گزینه تصویر انتخاب شده را به عنوان تصویر پس زمینه قرار میدهد.
+![تنظیمات افزونه](/promo/graphic-settings-background.png)
+
+1. **Top, left, right, bottom** - امکان سفارشی‌ سازی موقعیت تصاویر
+2. **Background height and width** - امکان پیکربندی اندازه صحیح تصاویر آپلود شده را فراهم میکند، اگر میخواهید تصاویر تمام عرض داشته باشید، لطفاً از تنظیمات پیشفرض استفاده کنید
+3. **Vertical and horizontal align** - امکان پیکربندی موقعیت تصویر را فراهم میکند. این میتواند برای تصاویری که پس‌ زمینه را به طور کامل پر نمیکنند، استفاده شود. درباره [ترازبندی‌ها](https://www.w3schools.com/css/css_align.asp) بیشتر بدانید.
+4. **Opacity and Background size** - شفافیت (Opacity): میزان شفافیت تصویر را تنظیم میکند. اگر از تصویر تمام عرض استفاده میکنید، توصیه می‌شود از شفافیت بین 20 تا 50 استفاده کنید. اندازه پس‌ زمینه، اندازه تصاویر پس‌ زمینه را مشخص کنید، درباره ویژگی [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) بیشتر بدانید.
+
+#### Custom icon
+
+این گزینه، تصویر انتخاب شده را به عنوان آیکون/تصویر، در سمت راست بنر قرار میدهد. همانند تصاویر پیشفرض لاگوم.
+![تنظیمات افزونه](/promo/graphic-settings-icon.png)
+
+1. **Top, left, right, bottom** - امکان سفارشی‌ سازی موقعیت تصاویر
+2. **Icon height and width** - امکان پیکربندی اندازه صحیح آیکون آپلود شده را فراهم میکند.
+3. **Vertical and horizontal align** - امکان پیکربندی موقعیت تصویر را فراهم میکند. این میتواند برای تصاویری که پس‌ زمینه را به طور کامل پر نمیکنند، استفاده شود. درباره [ترازبندی‌ها](https://www.w3schools.com/css/css_align.asp) بیشتر بدانید.
+
+#### Default Lagom icon
+
+وقتی یکی از تصاویر بخش **"Default Lagom Icons"** در "Media manager" را انتخاب میکنید، افزونه‌ تمام **تنظیمات تصویر** را غیرفعال میکند و از تنظیمات پیشفرض توسط قالب استفاده خواهد کرد.
+
+### Graphic Animation
+
+به شما امکان میدهد نوع انیمیشن ورودی را برای تصویر هنگام نمایش بنر انتخاب کنید.
+![تنظیمات افزونه](/promo/promotion_display_settings-graphic_animation-1.png)
