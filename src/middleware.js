@@ -5,6 +5,7 @@ export const protectedPages = {
   '/website-builder': process.env.NEXT_PUBLIC_PASSWORD_BUILDER,
   '/extensions/client-notifications':
     process.env.NEXT_PUBLIC_PASSWORD_CLIENTNOTIF,
+  '/extensions/promotion-manager': process.env.NEXT_PUBLIC_PASSWORD_PROMO,
 }
 
 export function middleware(req) {
@@ -38,5 +39,6 @@ export const config = {
     '/lagom/:path*',
     '/website-builder/:path*',
     '/extensions/client-notifications/:path*',
+    '/extensions/promotion-manager/:path*',
   ],
 }
