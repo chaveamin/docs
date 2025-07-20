@@ -21,6 +21,11 @@ export const navigation = [
     link: '/lagom',
   },
   {
+    title: 'سایت ساز لاگوم',
+    links: [{ title: 'نصب سایت ساز لاگوم', href: '/website-builder' }],
+    link: '/website-builder',
+  },
+  {
     title: 'افزونه اعلان مشتری لاگوم',
     links: [
       { title: 'نصب', href: '/extensions/client-notifications' },
@@ -45,9 +50,16 @@ export const navigation = [
     link: '/extensions/promotion-manager',
   },
   {
-    title: 'سایت ساز لاگوم',
-    links: [{ title: 'نصب سایت ساز لاگوم', href: '/website-builder' }],
-    link: '/website-builder',
+    title: 'افزونه قالب ایمیل لاگوم',
+    links: [
+      { title: 'نصب', href: '/extensions/email-template' },
+      { title: 'آپدیت', href: '/extensions/email-template/update' },
+      {
+        title: 'پیکربندی',
+        href: '/extensions/email-template/configuration',
+      },
+    ],
+    link: '/extensions/email-template',
   },
   {
     title: 'قالب ادمین ایکس',
