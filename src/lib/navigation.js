@@ -58,6 +58,10 @@ export const navigation = [
         title: 'پیکربندی',
         href: '/extensions/email-template/configuration',
       },
+      {
+        title: 'قالب ها',
+        href: '/extensions/email-template/templates',
+      },
     ],
     link: '/extensions/email-template',
   },
