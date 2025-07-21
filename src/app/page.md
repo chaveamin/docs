@@ -13,6 +13,8 @@
 
 {% quick-link title="افزونه بنر تبلیغ لاگوم" icon="installation" href="/extensions/promotion-manager"  /%}
 
+{% quick-link title="افزونه قالب ایمیل لاگوم" icon="installation" href="/extensions/email-template"  /%}
+
 {% quick-link title="قالب ادمین ایکس" icon="installation" href="/adminx"  /%}
 
 {% quick-link title="مدیریت پیشرفته منو" icon="theming" href="/whmcs-advanced-menu-manager" /%}
