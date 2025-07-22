@@ -66,6 +66,18 @@ export const navigation = [
     link: '/extensions/email-template',
   },
   {
+    title: 'افزونه ساعات پشتیبانی لاگوم',
+    links: [
+      { title: 'نصب', href: '/extensions/support-hours' },
+      { title: 'آپدیت', href: '/extensions/support-hours/update' },
+      {
+        title: 'پیکربندی',
+        href: '/extensions/support-hours/configuration',
+      },
+    ],
+    link: '/extensions/support-hours',
+  },
+  {
     title: 'قالب ادمین ایکس',
     links: [{ title: 'نصب قالب ادمین ایکس', href: '/adminx' }],
     link: '/adminx',
