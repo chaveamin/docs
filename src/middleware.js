@@ -7,6 +7,7 @@ export const protectedPages = {
     process.env.NEXT_PUBLIC_PASSWORD_CLIENTNOTIF,
   '/extensions/promotion-manager': process.env.NEXT_PUBLIC_PASSWORD_PROMO,
   '/extensions/email-template': process.env.NEXT_PUBLIC_PASSWORD_MAIL,
+  '/extensions/support-hours': process.env.NEXT_PUBLIC_PASSWORD_SUPPORT,
 }
 
 export function middleware(req) {
@@ -42,5 +43,6 @@ export const config = {
     '/extensions/client-notifications/:path*',
     '/extensions/promotion-manager/:path*',
     '/extensions/email-template/:path*',
+    '/extensions/support-hours/:path*',
   ],
 }
