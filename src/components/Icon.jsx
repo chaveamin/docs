@@ -1,17 +1,29 @@
 import { useId } from 'react'
 import clsx from 'clsx'
 
+import { BuilderIcon } from '@/components/icons/BuilderIcon'
+import { LagomIcon } from '@/components/icons/LagomIcon'
+import { ShufyIcon } from '@/components/icons/ShufyIcon'
+import { AdminXIcon } from '@/components/icons/AdminXIcon'
+import { TelegramIcon } from '@/components/icons/TelegramIcon'
+import { ClientIcon } from '@/components/icons/ClientIcon'
+import { PromoIcon } from '@/components/icons/PromoIcon'
+import { EmailIcon } from '@/components/icons/EmailIcon'
+import { SupportIcon } from '@/components/icons/SupportIcon'
 import { LightbulbIcon } from '@/components/icons/LightbulbIcon'
-import { PluginsIcon } from '@/components/icons/PluginsIcon'
-import { PresetsIcon } from '@/components/icons/PresetsIcon'
-import { ThemingIcon } from '@/components/icons/ThemingIcon'
 import { WarningIcon } from '@/components/icons/WarningIcon'
 import { ErrorIcon } from '@/components/icons/ErrorIcon'
 
 const icons = {
-  presets: PresetsIcon,
-  plugins: PluginsIcon,
-  theming: ThemingIcon,
+  lagom: LagomIcon,
+  builder: BuilderIcon,
+  shufy: ShufyIcon,
+  adminx: AdminXIcon,
+  telegram: TelegramIcon,
+  client: ClientIcon,
+  promo: PromoIcon,
+  email: EmailIcon,
+  support: SupportIcon,
   lightbulb: LightbulbIcon,
   warning: WarningIcon,
   error: ErrorIcon,
@@ -29,15 +41,9 @@ export function Icon({ icon, color = 'blue', className, ...props }) {
   let IconComponent = icons[icon]
 
   return (
-    <svg
-      aria-hidden="true"
-      viewBox="0 0 32 32"
-      fill="none"
-      className={clsx(className, iconStyles[color])}
-      {...props}
-    >
+    <span className={clsx(className, iconStyles[color])} {...props}>
       <IconComponent id={id} color={color} />
-    </svg>
+    </span>
   )
 }
 
