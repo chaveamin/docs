@@ -5,21 +5,21 @@ import { Icon } from '@/components/Icon'
 const styles = {
   note: {
     container:
-      'bg-sky-50 border-t-5 border-t-sky-600 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
+      'bg-sky-50 border-t-5 border-t-sky-600 dark:bg-zinc-800/60 dark:ring-1 dark:ring-zinc-300/10',
     title: '!text-sky-900 !dark:text-sky-400',
-    body: 'max-w-[40rem] text-justify text-sky-800 [--tw-prose-background:var(--color-sky-50)] prose-a:text-sky-900 prose-code:text-sky-900 dark:text-slate-300 dark:prose-code:text-slate-300',
+    body: 'max-w-[40rem] text-justify text-sky-800 [--tw-prose-background:var(--color-sky-50)] prose-a:text-sky-900 prose-code:text-sky-900 dark:text-zinc-300 dark:prose-code:text-zinc-300',
   },
   warning: {
     container:
-      'bg-amber-50 border-t-5 border-t-amber-600 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
+      'bg-amber-50 border-t-5 border-t-amber-600 dark:bg-zinc-800/60 dark:ring-1 dark:ring-zinc-300/10',
     title: '!text-amber-900 !dark:text-amber-500',
-    body: 'max-w-[40rem] text-justify text-amber-800 [--tw-prose-underline:var(--color-amber-400)] [--tw-prose-background:var(--color-amber-50)] prose-a:text-amber-900 prose-code:text-amber-900 dark:text-slate-300 dark:[--tw-prose-underline:var(--color-sky-700)] dark:prose-code:text-slate-300',
+    body: 'max-w-[40rem] text-justify text-amber-800 [--tw-prose-underline:var(--color-amber-400)] [--tw-prose-background:var(--color-amber-50)] prose-a:text-amber-900 prose-code:text-amber-900 dark:text-zinc-300 dark:[--tw-prose-underline:var(--color-sky-700)] dark:prose-code:text-zinc-300',
   },
   error: {
     container:
-      'bg-red-50 border-t-5 border-t-red-600 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
+      'bg-red-50 border-t-5 border-t-red-600 dark:bg-zinc-800/60 dark:ring-1 dark:ring-zinc-300/10',
     title: 'text-red-900 !dark:text-red-500',
-    body: 'max-w-[40rem] text-justify text-red-800 [--tw-prose-underline:var(--color-red-400)] [--tw-prose-background:var(--color-red-50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-slate-300 dark:[--tw-prose-underline:var(--color-sky-700)] dark:prose-code:text-slate-300',
+    body: 'max-w-[40rem] text-justify text-red-800 [--tw-prose-underline:var(--color-red-400)] [--tw-prose-background:var(--color-red-50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-zinc-300 dark:[--tw-prose-underline:var(--color-sky-700)] dark:prose-code:text-zinc-300',
   },
 }
 

@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       className={`h-full antialiased ${iranyekan.variable} font-iranyekan`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full bg-white dark:bg-slate-900">
+      <body className="flex min-h-full bg-white dark:bg-zinc-900">
         <Providers>
           <Layout>
             <NextTopLoader color="#2563eb" height={2} />
