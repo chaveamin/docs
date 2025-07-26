@@ -158,3 +158,157 @@ nextjs:
 ### Menu Item Label
 
 ![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-item_label-1.png)
+
+1. **Label Type** - نوع لیبل را برای آیتم منوی خود انتخاب کنید، هر کدام با رنگ‌های پس‌زمینه و تایپوگرافی منحصر به فرد خود که در تنظیمات ["مدیریت استایل ها"](/lagom/style-manager#labels) پیکربندی شده‌اند. میتوانید از بین انواع تایپ زیر انتخاب کنید:
+
+- Default
+- Primary
+- Primary Faded
+- Secondary
+- Success
+- Info
+- Warning
+- Danger
+- Savings - Pink color label
+
+2. **Label Text** - متنی را که در لیبل ایجاد شده نمایش داده میشود، تنظیم کنید. این متن را میتوان به راحتی با کلیک روی متن "Translate"، در کنار لیبل ورودی، به زبان‌های مختلف ترجمه کرد.
+
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-item_label-2.png)
+
+### تنظیمات زیرمنو
+
+#### Sub-Menu Style
+
+این گزینه به شما امکان میدهد سبک نمایش این منوی کشویی در وبسایت خود را مشخص کنید. شما سه گزینه مجزا برای انتخاب دارید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-1.png)
+
+##### Default Style
+
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-1-1.png)
+
+##### Extended Style
+
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-1-2.png)
+
+##### Mega Menu Style
+
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-1-3.png)
+
+#### تصویر زیرمنو
+
+این گزینه منحصراً زمانی نشان داده میشود که سبک "Mega Menu" فعال باشد. میتوانید آیکون‌ها و تصاویر از پیش موجود را اختصاص دهید یا از طریق پنجره "Media Manager" آیکون‌ها و تصاویر خودتان را آپلود کنید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-2.png)
+
+تصویر انتخاب شده مطابق مثال زیر نمایش داده خواهد شد:
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-2-1.png)
+
+#### توضیحات زیرمنو
+
+این گزینه فقط زمانی نشان داده میشود که سبک "Mega Menu" فعال باشد.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-3.png)
+
+توضیحات در سمت راست نمایش داده میشود:
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-submenu_style-3-1.png)
+
+### تنظیمات نمایش آیتم منو
+
+#### Theme Layout
+
+این ویژگی به شما امکان میدهد انتخاب کنید که آیتم منوی فعلی برای کدام [طرح‌ بندی](/lagom/layout-manager) لاگوم نمایش داده شود. میتوانید چندین آیتم را انتخاب کنید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-layout.png)
+
+انواع تایپ عبارتند از:
+
+1. **All** - آیتم منو برای همه طرح‌بندی‌های لاگوم نمایش داده خواهد شد.
+2. **Default** - آیتم منو فقط برای طرح [Default](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=default) نمایش داده میشود.
+3. **Condensed** - یک آیتم منو برای طرح‌بندی‌های [Condensed](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=condensed&rspage=default) و [Condensed Banner](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=condensed-banner&rspage=default) نمایش داده خواهد شد
+4. **Left** - آیتم منو برای طرح‌بندی‌های [Left](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=left-nav-wide&rspage=default) و [Left Wide](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=left-nav-wide&rspage=default) قابل مشاهده خواهد بود.
+
+#### Client Status
+
+این گزینه به شما امکان میدهد تعریف کنید که آیتم منوی فعلی برای کدام وضعیت مشتری نمایش داده شود.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-client.png)
+
+1. **All** - آیتم منو هم برای مشتریان وارد شده و هم برای مشتریان خارج شده از سیستم و مهمان شده نمایش داده خواهد شد.
+2. **Logged in Client** - آیتم منو فقط برای مشتریان وارد شده قابل مشاهده خواهد بود
+3. **Logged out Client** - آیتم منو فقط برای مشتریان مهمان و خارج شده از سیستم قابل مشاهده خواهد بود
+
+#### Style for Top Menu Layout
+
+این عملکرد به شما امکان میدهد سبک آیتم منو را برای [طرح‌بندی‌های](/lagom/layout-manager) "اصلی" لاگوم انتخاب کنید، که عبارتند از: [Default](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=default), [Condensed](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=condensed&rspage=default), [Condensed Banner](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=condensed-banner&rspage=default)
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-top_menu.png)
+
+4 گزینه مختلف برای انتخاب وجود دارد:
+
+1. **Text** - آیتم منو **فقط** "نام" را نشان میدهد و آیکون انتخاب شده را **نادیده میگیرد**.
+2. **Text with icon** - در صورت انتخاب، آیتم منو "نام" و "آیکون" را نشان میدهد.
+3. **Icon only** -آیتم منو فقط "آیکون" را نمایش میدهد و "نام" را نادیده میگیرد
+4. **Button** - آیتم منو به عنوان "دکمه" نمایش داده میشود و آیکون انتخاب شده را نادیده میگیرد زیرا دکمه از "آیکون‌ها" پشتیبانی نمیکند. 3 سبک دکمه مختلف برای انتخاب وجود دارد:
+   - Primary
+   - Primary Faded
+   - Outline
+
+#### Style for Left Menu Layout
+
+با استفاده از این گزینه، میتوانید سبک آیتم منو را برای [طرح‌بندی‌](/lagom/layout-manager) های "چپ" تعریف کنید که عبارتند از: [Left](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=left-nav-wide&rspage=default) و [Left Wide](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=left-nav-wide&rspage=default).
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-left_menu.png)
+این تنظیمات همان گزینه‌های پیکربندی [Style for Top Menu Layout](#style-for-top-menu-layout) را ارائه میدهد.
+
+#### Position
+
+در اینجا میتوانید موقعیت آیتم منو را مشخص کنید. این گزینه فقط توسط طرح [پیشفرض](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=default) پشتیبانی میشود زیرا سایر طرح‌ها، موقعیت آیتم منو چپ/راست را ندارند.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-position.png)
+
+میتوانید یکی از گزینه‌های زیر را انتخاب کنید:
+
+1. **Left** - آیتم منو در سمت چپ طرح [پیشفرض](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=default) لاگوم نمایش داده خواهد شد
+2. **Right** - آیتم منو در سمت راست طرح [پیشفرض](https://demo.rsstudio.net/lagom/?rsstyle=modern&rslayout=default&rspage=default) لاگوم نمایش داده خواهد شد
+
+#### Custom Classes
+
+این قابلیت به شما امکان میدهد کلاس HTML سفارشی خود را اختصاص دهید که به شما آزادی کامل برای اعمال قوانین CSS سفارشی به این آیتم منو میدهد. میتوان چندین کلاس را وارد کرد، به عنوان مثال `custom-class-1 custom-class-2 custom-class-3`.
+
+میتوانید از کلاس `order-neg-1 m-r-a` برای انتقال آیتم منو به سمت چپ نوار منو استفاده کنید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-class.png)
+
+#### Target Blank
+
+با روشن/خاموش کردن این گزینه، میتوانید تصمیم بگیرید که آیا این آیتم منو باید در یک تب مرورگر جدید باز شود یا خیر.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-target.png)
+
+## تنظیمات آیتم فرزند
+
+"آیتم‌های فرزند" در منوی ناوبری قالب لاگوم به صورت عناصر "کشویی" نمایش داده میشوند. **فقط** میتوان **یک سطح** از آیتم‌های منوی "فرزند" را اختصاص داد.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-child_preview.png)
+
+تنظیمات "آیتم فرزند" به اندازه تنظیمات "آیتم والد" راه های شخصی‌ سازی زیادی ارائه نمیدهد. در این بخش، میتوانید توضیحات این گزینه‌ها را که با تنظیمات آیتم والد متفاوت هستند، بیابید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-child.png)
+
+#### موقعیت منو کشویی
+
+اگر مایلید منوی کشویی را در سمت راست آیتم منوی والد قرار دهید، لطفاً به فیلد "Custom Classes" کلاس `pull-right` را اضافه کنید.
+
+### Type
+
+"Type" تعریف میکند که کدام نوع آیتم زیرمنو برای آیتم منوی فرزند فعلی استفاده خواهد شد.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-type-1.png)
+
+#### WHMCS Page
+
+لیستی از صفحات از پیش تعریف شده WHMCS را برای انتخاب نمایش میدهد. آدرس اینترنتی آیتم منو به طور خودکار بر اساس صفحه انتخاب شده تنظیم میشود.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-whmcs_page-1.png)
+
+#### Custom Link
+
+به شما امکان میدهد آدرس سفارشی خود را تنظیم کنید. به یاد داشته باشید که لینک را با `https://` شروع کنید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-custom_link-1.png)
+
+#### Homepage
+
+به شما امکان میدهد یک لینک سریع به صفحه اصلی خود تنظیم کنید.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-homepage-1.png)
+
+#### Predefined List
+
+فهرستی از پیش تعریف‌ شده از آیتم‌های منو را ارائه میدهد. این آیتم‌ها به‌طور خودکار بر اساس پیکربندی WHMCS آپدیت میشوند. پس از انتخاب، شما نمیتوانید "نام" آیتم منو یا "آیکون" را تعیین کنید، زیرا این موارد بر اساس مجموعه داده از پیش تعریف شده تولید میشوند.
+![مدیریت منوی قالب لاگوم](/lagom/menu-manager/menu_manager-main_menu-predefined_list-1.png)
